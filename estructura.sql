@@ -57,3 +57,5 @@ INSERT INTO productos (item_id, sku, title) VALUES
 ('MLA2030473168', 25425, 'Protector Silicona Liquid Xiaomi 14 Rojo'),
 ('MLA2030473170', 23834, 'Protector Silicona Liquid Xiaomi Redmi Note 13 Pro 4g Azul');
 
+-- Insertar datos de ejemplo
+INSERT INTO productos (item_id, sku, title) VALUES
