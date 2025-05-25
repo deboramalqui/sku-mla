@@ -31,10 +31,6 @@ INSERT INTO productos (item_id, sku, title) VALUES
 '),
 ('MLA1457245427', 20721, 'Glass Cam Trasera Brillo 11 Pro/11 Pro Max/12 Pro Negro
 '),
-('MLA1908142140', , 'Protector Acrílico Premium iPhone 16
-'),
-('MLA1925234048', , 'Vidrio Templado Glass Fullglue iPhone 16 -protector Pantalla
-'),
 ('MLA1943038922', 15951, 'Protector Clear Case Magsafe iPhone 13 Pro Max
 '),
 ('MLA1943038924', 22307, 'Protector Clear Case Magsafe iPhone 15 Pro
@@ -76,46 +72,6 @@ INSERT INTO productos (item_id, sku, title) VALUES
 ('MLA1943181648', 15949, 'Protector Clear Case Magsafe iPhone 13
 '),
 ('MLA1943181650', 22306, 'Protector Clear Case Magsafe iPhone 15
-'),
-('MLA1957624576', , 'Magsafe iPhone 13 Pro + 2 Vidrios Pantalla 2 Vidrios Cámara
-'),
-('MLA1957624578', , 'Clear Magsafe iPhone 16 Pro Max + Vidrio Templado Full
-'),
-('MLA1957624582', , 'Magsafe iPhone 15 Pro Max+2 Vidriospantalla + 1 Vidriocámara
-'),
-('MLA1957650454', , 'Magsafe iPhone 12 Promax +2 Vidriospantalla +2 Vidrioscámara
-'),
-('MLA1957663712', , 'Magsafe iPhone 12 + 2 Vidrios Pantalla +2 Vidrioscámara
-'),
-('MLA1957663714', , 'Magsafe iPhone 11 + 2 Vidrios Pantalla +2 Vidrioscámara
-'),
-('MLA1957676660', , 'Magsafe iPhone 14 Pro + 2 Vidrios Pantalla +2 Vidrioscámara
-'),
-('MLA1957676662', , 'Magsafe iPhone 11 Pro Max+2 Vidriospantalla +2 Vidrioscámara
-'),
-('MLA1957676664', , 'Magsafe iPhone 13 Pro Max+2 Vidriospantalla +2 Vidrioscámara
-'),
-('MLA1957689720', , 'Magsafe iPhone 11 Pro + 2 Vidrios Pantalla +2 Vidrioscámara
-'),
-('MLA1957689722', , 'Clear Magsafe iPhone 16 + Vidrio Templado Full
-'),
-('MLA1957715492', , 'Clear Magsafe iPhone 16 Plus + Vidrio Templado Full
-'),
-('MLA1957715494', , 'Magsafe iPhone 15 Pro + 2 Vidrios Pantalla + 1 Vidrio Cámara
-'),
-('MLA1957715496', , 'Magsafe iPhone 14 Pro Max+2 Vidriospantalla +2 Vidrioscámara
-'),
-('MLA1957741574', , 'Magsafe iPhone 14 Max + 2 Vidrios Pantalla +2 Vidrioscámara
-'),
-('MLA1957741576', , 'Magsafe iPhone 14 + 2 Vidrios Pantalla + 2 Vidrios Cámara
-'),
-('MLA1957741578', , 'Clear Magsafe iPhone 16 Pro + Vidrio Templado Full
-'),
-('MLA1957741580', , 'Magsafe iPhone 15 Plus+2 Vidriospantalla + 1 Vidriocámara
-'),
-('MLA1957804626', , 'Magsafe iPhone 13 + 2 Vidrios Pantalla + 2 Vidrios Cámara
-'),
-('MLA1957804628', , 'Magsafe iPhone 15 + 2 Vidrios Pantalla + 1 Vidrio Cámara
 '),
 ('MLA2030473140', 15420, 'Protector Silicona Liquid Moto G51 Rojo
 '),
