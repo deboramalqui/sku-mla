@@ -11,1453 +11,1602 @@ CREATE TABLE IF NOT EXISTS productos (
 
 -- Insertar datos en la tabla productos
 INSERT INTO productos (item_id, sku, title) VALUES
-('MLA1457232765', 21840, 'Glass Camara Trasera Brillo iPhone 11/12/12 Mini Plateado
-'),
-('MLA1457232767', 20945, 'Glass Camara Trasera Brillo iPhone 13/13 Mini Plateado
-'),
-('MLA1457232769', 21896, 'Glass Camara Trasera Brillo iPhone 11/12/12 Mini Dorado
-'),
-('MLA1457245415', 21854, 'Glass Cam Trasera Brillo 11 Pro/11 Pro Max/12 Pro Multicolor
-'),
-('MLA1457245417', 21851, 'Glass Camara Trasera Brillo iPhone 13/13 Mini Multicolor
-'),
-('MLA1457245419', 21849, 'Glass Camara Trasera Brillo iPhone 13/13 Mini Rojo
-'),
-('MLA1457245421', 20720, 'Glass Camara Trasera Brillo 11 Pro/11 Pro Max/12 Pro Verde
-'),
-('MLA1457245423', 20719, 'Glass Camara Trasera Brillo 11 Pro/11 Pro Max/12 Pro Azul
-'),
-('MLA1457245425', 24256, 'Glass Camara Trasera Brillo iPhone 13/13 Mini Violeta
-'),
-('MLA1457245427', 20721, 'Glass Cam Trasera Brillo 11 Pro/11 Pro Max/12 Pro Negro
-'),
-('MLA1943038922', 15951, 'Protector Clear Case Magsafe iPhone 13 Pro Max
-'),
-('MLA1943038924', 22307, 'Protector Clear Case Magsafe iPhone 15 Pro
-'),
-('MLA1943051552', 25189, 'Protector Clear Case Magsafe iPhone 16 Pro
-'),
-('MLA1943052118', 17826, 'Protector Clear Case Magsafe iPhone 14 Pro
-'),
-('MLA1943052120', 15948, 'Protector Clear Case Magsafe iPhone 12 Pro Max
-'),
-('MLA1943064996', 25328, 'Protector Clear Case Magsafe iPhone 16 Plus
-'),
-('MLA1943078358', 25188, 'Protector Clear Case Magsafe iPhone 16
-'),
-('MLA1943091032', 21683, 'Protector Clear Case Magsafe iPhone 11
-'),
-('MLA1943103830', 22308, 'Protector Clear Case Magsafe iPhone 15 Pro Max
-'),
-('MLA1943130014', 14560, 'Protector Clear Case Magsafe iPhone 12/12 Pro
-'),
-('MLA1943130016', 25189, 'Protector Clear Case Magsafe iPhone 16 Pro
-'),
-('MLA1943130018', 14559, 'Protector Clear Case Magsafe iPhone 11 Pro
-'),
-('MLA1943130020', 17827, 'Protector Clear Case Magsafe iPhone 14 Max/plus
-'),
-('MLA1943156128', 25190, 'Protector Clear Case Magsafe iPhone 16 Pro Max
-'),
-('MLA1943156130', 15950, 'Protector Clear Case Magsafe iPhone 13 Pro
-'),
-('MLA1943181640', 20410, 'Protector Clear Case Magsafe iPhone 11 Pro Max
-'),
-('MLA1943181642', 17828, 'Protector Clear Case Magsafe iPhone 14 Pro Max
-'),
-('MLA1943181644', 17825, 'Protector Clear Case Magsafe iPhone 14
-'),
-('MLA1943181646', 22501, 'Protector Clear Case Magsafe iPhone 15 Plus/max
-'),
-('MLA1943181648', 15949, 'Protector Clear Case Magsafe iPhone 13
-'),
-('MLA1943181650', 22306, 'Protector Clear Case Magsafe iPhone 15
-'),
-('MLA2030473140', 15420, 'Protector Silicona Liquid Moto G51 Rojo
-'),
-('MLA2030473142', 23060, 'Protector Silicona Liquid Moto G84 Negro
-'),
-('MLA2030473146', 24086, 'Protector Silicona Liquid Samsung A04 S Azul
-'),
-('MLA2030473148', 19449, 'Protector Silicona Liquid Samsung S23 Ultra Rosa
-'),
-('MLA2030473152', 25443, 'Protector Silicona Liquid Samsung A35 Rojo
-'),
-('MLA2030473154', 24753, 'Protector Silicona Liquid Moto Edge 40 Rojo
-'),
-('MLA2030473156', 21711, 'Protector Silicona Liquid Samsung A04 Core Negro
-'),
-('MLA2030473158', 19444, 'Protector Silicona Liquid Samsung S23 Plus Azul
-'),
-('MLA2030473160', 23830, 'Protector Silicona Xiaomi Redmi Note 13 Pro 4g Celeste
-'),
-('MLA2030473162', 24764, 'Protector Silicona Liquid Moto G24 Rojo
-'),
-('MLA2030473164', 23523, 'Protector Silicona Liquid Xiaomi Note 11 4g Azul
-'),
-('MLA2030473166', 17313, 'Protector Silicona Liquid Samsung A12 Azul
-'),
-('MLA2030473168', 25425, 'Protector Silicona Liquid Xiaomi 14 Rojo
-'),
-('MLA2030473170', 23834, 'Protector Silicona Liquid Xiaomi Redmi Note 13 Pro 4g Azul
-'),
-('MLA2030473172', 24084, 'Protector Silicona Liquid Samsung A55 Azul
-'),
-('MLA2030473174', 25448, 'Protector Silicona Liquid Xiaomi Redmi 9a Negro
-'),
-('MLA2030473176', 22654, 'Protector Silicona Liquid Xiaomi Redmi 12c Celeste
-'),
-('MLA2030473178', 25434, 'Protector Silicona Liquid Moto Edge 50 Fusion Negro
-'),
-('MLA2030473180', 9933, 'Protector Silicona Liquid Samsung M20
-'),
-('MLA2030473182', 15000, 'Protector Silicona Liquid Moto E20 Rojo
-'),
-('MLA2030473184', 17702, 'Protector Silicona Liquid Samsung A32 4g Azul
-'),
-('MLA2030473186', 20925, 'Protector Silicona Liquid Moto Edge 40 Negro
-'),
-('MLA2030473188', 22763, 'Protector Silicona Liquid Samsung A05 S Negro
-'),
-('MLA2030473190', 17701, 'Protector Silicona Liquid Samsung A21 S Rosa
-'),
-('MLA2030473192', 22268, 'Protector Silicona Liquid Moto One Hyper Rojo
-'),
-('MLA2030473194', 20884, 'Protector Silicona Liquid Samsung A02 S Negro
-'),
-('MLA2030473196', 25560, 'Protector Silicona Liquid Xiaomi Redmi 14c Lila
-'),
-('MLA2030473198', 24447, 'Protector Silicona Liquid Xiaomi Redmi Note 12 4g Bordo
-'),
-('MLA2030473200', 15412, 'Protector Silicona Liquid Moto G31 Azul
-'),
-('MLA2030486160', 18235, 'Protector Silicona Liquid Samsung A21 Rojo
-'),
-('MLA2030486162', 22469, 'Protector Silicona Liquid Moto E6 Amarillo
-'),
-('MLA2030486164', 20381, 'Protector Silicona Liquid Samsung A34 5g Celeste
-'),
-('MLA2030486166', 19899, 'Protector Silicona Liquid Moto G32 Azul
-'),
-('MLA2030486168', 15172, 'Protector Silicona Liquid Samsung S22 Plus Negro
-'),
-('MLA2030486170', 24760, 'Protector Silicona Liquid Xiaomi Redmi A3 Azul
-'),
-('MLA2030486172', 17706, 'Protector Silicona Liquid Samsung A32 4g Rosa
-'),
-('MLA2030486176', 25062, 'Protector Silicona Liquid Moto Edge 50 Pro Negro
-'),
-('MLA2030486178', 19448, 'Protector Silicona Liquid Samsung S23 Ultra Azul
-'),
-('MLA2030486182', 17129, 'Protector Silicona Liquid Moto G22 Celeste
-'),
-('MLA2030486186', 16383, 'Protector Silicona Liquid Moto G22 Azul
-'),
-('MLA2030486188', 19069, 'Protector Silicona Liquid Samsung A31 Rosa
-'),
-('MLA2030486190', 9945, 'Protector Silicona Liquid Samsung A2 Core
-'),
-('MLA2030486194', 22296, 'Protector Silicona Liquid Xiaomi Redmi 9 Amarillo
-'),
-('MLA2030486196', 22694, 'Protector Silicona Liquid Samsung A25 Negro
-'),
-('MLA2030486198', 23193, 'Protector Silicona Liquid Moto G100 Rosa
-'),
-('MLA2030486204', 11710, 'Protector Silicona Liquid Xiaomi Note 10 Lite
-'),
-('MLA2030486206', 18392, 'Protector Silicona Liquid Samsung S9 Negro
-'),
-('MLA2030486208', 18632, 'Protector Silicona Liquid Samsung A04 Rosa
-'),
-('MLA2030486210', 21335, 'Protector Silicona Liquid Samsung A72 Verde Agua
-'),
-('MLA2030486214', 15935, 'Protector Silicona Liquid Samsung A53 5g Rojo
-'),
-('MLA2030486216', 14462, 'Protector Silicona Liquid Moto E40 Rojo
-'),
-('MLA2030486220', 22340, 'Protector Silicona Liquid Samsung S20 Fucsia
-'),
-('MLA2030486222', 22598, 'Protector Silicona Liquid Xiaomi Redmi Note 12 4g Lila
-'),
-('MLA2030486224', 16645, 'Protector Silicona Liquid LG K41/k51 S Negro
-'),
-('MLA2030486226', 14475, 'Protector Silicona Liquid Moto Edge 20 Pro Rosa
-'),
-('MLA2030486230', 15415, 'Protector Silicona Liquid Moto G31 Rojo
-'),
-('MLA2030486232', 20803, 'Protector Silicona Liquid Samsung A14 Lavanda
-'),
-('MLA2030486234', 24332, 'Protector Silicona Liquid Xiaomi Redmi Note 13 Pro 4g Morado
-'),
-('MLA2030486236', 22765, 'Protector Silicona Liquid Samsung A05 S Verde Agua
-'),
-('MLA2030486238', 17699, 'Protector Silicona Liquid Samsung A21 S Negro
-'),
-('MLA2030486240', 10132, 'Protector Silicona Liquid Xiaomi Note 8
-'),
-('MLA2030499062', 18659, 'Protector Silicona Liquid Moto E32 Rojo
-'),
-('MLA2030499064', 19761, 'Protector Silicona Liquid Moto G72 Negro
-'),
-('MLA2030499066', 22605, 'Protector Silicona Liquid Xiaomi Redmi Note 12 4g Amarillo
-'),
-('MLA2030499068', 19784, 'Protector Silicona Liquid Moto Edge 30 Ultra Negro
-'),
-('MLA2030499070', 15934, 'Protector Silicona Liquid Samsung A53 5g Rosa
-'),
-('MLA2030499072', 19258, 'Protector Silicona Liquid Samsung A04 Azul
-'),
-('MLA2030499074', 23237, 'Protector Silicona Liquid Xiaomi Redmi Note 12s Verde Agua
-'),
-('MLA2030499076', 20876, 'Protector Silicona Liquid Samsung A01 Negro
-'),
-('MLA2030499078', 18649, 'Protector Silicona Liquid iPhone 14 Max/plus Negro
-'),
-('MLA2030499080', 22622, 'Protector Silicona Liquid Xiaomi Redmi Note 12 Pro 5g Fucsia
-'),
-('MLA2030499082', 14468, 'Protector Silicona Liquid Moto Edge 20 Lite Rojo
-'),
-('MLA2030499086', 24781, 'Protector Silicona Liquid Moto G34 Negro
-'),
-('MLA2030499088', 25291, 'Protector Silicona Liquid Samsung A25 Rojo
-'),
-('MLA2030499090', 14473, 'Protector Silicona Liquid Moto Edge 20 Pro Rojo
-'),
-('MLA2030499094', 22597, 'Protector Silicona Liquid Xiaomi Redmi Note 12 4g Azul
-'),
-('MLA2030499098', 16364, 'Protector Silicona Liquid Samsung A22 5g Azul
-'),
-('MLA2030499100', 22647, 'Protector Silicona Liquid Xiaomi Redmi 12c Rosa
-'),
-('MLA2030499102', 24756, 'Protector Silicona Liquid Samsung A31 Azul
-'),
-('MLA2030499104', 25717, 'Protector Silicona Liquid Moto G55 Negro
-'),
-('MLA2030499106', 22406, 'Protector Silicona Liquid Samsung A14 Azul
-'),
-('MLA2030499108', 11006, 'Protector Silicona Liquid Xiaomi Redmi 7
-'),
-('MLA2030499112', 22305, 'Protector Silicona Liquid Samsung A21 S Fucsia
-'),
-('MLA2030499114', 23454, 'Protector Silicona Liquid Moto Edge 40 Neo Rosa
-'),
-('MLA2030499118', 25902, 'Protector Silicona Liquid Moto G85 Rosa
-'),
-('MLA2030499120', 22902, 'Protector Silicona Liquid Samsung S24 Azul
-'),
-('MLA2030499122', 18385, 'Protector Silicona Liquid Moto E32 Negro
-'),
-('MLA2030499124', 25915, 'Protector Silicona Liquid Infinix Hot 40 Pro Negro
-'),
-('MLA2030499126', 19272, 'Protector Silicona Liquid Samsung S23 Negro
-'),
-('MLA2030499130', 22905, 'Protector Silicona Liquid Samsung S24 Rosa
-'),
-('MLA2030499132', 15177, 'Protector Silicona Liquid Samsung S22 Ultra Rosa
-'),
-('MLA2030499134', 22764, 'Protector Silicona Liquid Samsung A05 S Rosa
-'),
-('MLA2030499136', 24761, 'Protector Silicona Liquid Xiaomi Redmi A3 Celeste
-'),
-('MLA2030499138', 15173, 'Protector Silicona Liquid Samsung S22 Plus Rosa
-'),
-('MLA2030499140', 23474, 'Protector Silicona Liquid Xiaomi Redmi 13c/poco C65 Rojo
-'),
-('MLA2030499142', 25821, 'Protector Silicona Liquid Moto G24 Lila
-'),
-('MLA2030499144', 23225, 'Protector Silicona Liquid LG K61 Rosa
-'),
-('MLA2030499146', 16371, 'Protector Silicona Liquid Samsung A23 4g Negro
-'),
-('MLA2030499148', 19770, 'Protector Silicona Liquid Moto E13 Negro
-'),
-('MLA2030499152', 22755, 'Protector Silicona Liquid Moto G53 Negro
-'),
-('MLA2030499154', 21337, 'Protector Silicona Liquid Samsung S20 Plus Rosa
-'),
-('MLA2030499156', 25609, 'Protector Silicona Liquid Xiaomi Redmi 14c Rojo
-'),
-('MLA2030511996', 21780, 'Protector Silicona Liquid Samsung A10 Rosa
-'),
-('MLA2030511998', 23479, 'Protector Silicona Liquid Xiaomi Redmi Note 13 5g Rosa
-'),
-('MLA2030512000', 12572, 'Protector Silicona Liquid Moto E6 S Rojo
-'),
-('MLA2030512002', 22877, 'Protector Silicona Liquid Samsung A15 Verde Agua
-'),
-('MLA2030512004', 15414, 'Protector Silicona Liquid Moto G31 Rosa
-'),
-('MLA2030512008', 25557, 'Protector Silicona Liquid Xiaomi Redmi 14c Azul
-'),
-('MLA2030512010', 10032, 'Protector Silicona Liquid Xiaomi Redmi 7a
-'),
-('MLA2030512012', 25822, 'Protector Silicona Liquid Moto G24 Verde Agua
-'),
-('MLA2030512014', 25855, 'Protector Silicona Liquid Samsung A06 Lavanda
-'),
-('MLA2030512016', 11004, 'Protector Silicona Liquid LG K40 S
-'),
-('MLA2030512018', 19298, 'Protector Silicona Liquid Moto Edge 30 Neo Verde Agua
-'),
-('MLA2030512020', 19807, 'Protector Silicona Liquid Moto Edge 30 Fusion Uva
-'),
-('MLA2030512024', 19591, 'Protector Silicona Liquid Samsung J7 2016 Negro
-'),
-('MLA2030512026', 25061, 'Protector Silicona Liquid Moto Edge 50 Pro Azul
-'),
-('MLA2030512028', 14314, 'Protector Silicona Liquid Samsung J7/j7 Neo Rosa
-'),
-('MLA2030512030', 13216, 'Protector Silicona Liquid Samsung A22 4g Verde Agua
-'),
-('MLA2030512032', 17700, 'Protector Silicona Liquid Samsung A21 S Rojo
-'),
-('MLA2030512034', 23481, 'Protector Silicona Liquid Xiaomi Redmi Note 13 5g Rojo
-'),
-('MLA2030512036', 22634, 'Protector Silicona Liquid Xiaomi Poco X5 Amarillo
-'),
-('MLA2030512038', 19291, 'Protector Silicona Liquid Moto Edge 30 Neo Fucsia
-'),
-('MLA2030512040', 23835, 'Protector Silicona Liquid Xiaomi Redmi Note 13 Pro 4g Marron
-'),
-('MLA2030512042', 22644, 'Protector Silicona Liquid Samsung A14 Celeste
-'),
-('MLA2030512044', 24082, 'Protector Silicona Liquid Moto G42 Azul
-'),
-('MLA2030512046', 24759, 'Protector Silicona Liquid Xiaomi Redmi A3 Rosa
-'),
-('MLA2030512050', 24859, 'Protector Silicona Liquid Moto G24 Azul
-'),
-('MLA2030512054', 23464, 'Protector Silicona Liquid Xiaomi Redmi 13c/poco C65 Naranja
-'),
-('MLA2030512056', 14464, 'Protector Silicona Liquid Moto E40 Rosa
-'),
-('MLA2030512058', 16385, 'Protector Silicona Liquid Moto G22 Rosa
-'),
-('MLA2030512060', 16390, 'Protector Silicona Liquid Moto G41 Rojo
-'),
-('MLA2030512062', 9808, 'Protector Silicona Liquid Xiaomi Note 7
-'),
-('MLA2030512064', 14547, 'Protector Silicona Liquid Moto E20 Verde Oscuro
-'),
-('MLA2030512066', 22436, 'Protector Silicona Liquid iPhone 12 Mini Negro
-'),
-('MLA2030512068', 22629, 'Protector Silicona Liquid Xiaomi Poco X5 Rojo
-'),
-('MLA2030524830', 16375, 'Protector Silicona Liquid Samsung A33 5g Negro
-'),
-('MLA2030524832', 14463, 'Protector Silicona Liquid Moto E40 Azul
-'),
-('MLA2030524834', 19248, 'Protector Silicona Liquid Samsung A51 Negro
-'),
-('MLA2030524836', 23452, 'Protector Silicona Liquid Moto Edge 40 Neo Negro
-'),
-('MLA2030524838', 18390, 'Protector Silicona Liquid Moto G52/g82 Azul
-'),
-('MLA2030524840', 19963, 'Protector Silicona Liquid Moto G10/g20/g30 Negro
-'),
-('MLA2030524842', 23489, 'Protector Silicona Xiaomi Redmi Note 13 Pro 5g/poco X6 Negro
-'),
-('MLA2030524844', 24338, 'Protector Silicona Liquid Xiaomi Redmi Note 13 4g Negro
-'),
-('MLA2030524846', 15930, 'Protector Silicona Liquid Moto G71 Rosa
-'),
-('MLA2030524848', 11002, 'Protector Silicona Liquid Samsung Note 10
-'),
-('MLA2030524850', 12247, 'Protector Silicona Liquid Moto G40 Fusion/g60
-'),
-('MLA2030524852', 19292, 'Protector Silicona Liquid Moto Edge 30 Neo Rojo
-'),
-('MLA2030524854', 22285, 'Protector Silicona Liquid Moto G8 Power Negro
-'),
-('MLA2030524856', 25431, 'Protector Silicona Liquid Xiaomi 14 Ultra Azul
-'),
-('MLA2030524860', 15423, 'Protector Silicona Liquid Samsung A03 Core Negro
-'),
-('MLA2030524862', 22596, 'Protector Silicona Liquid Xiaomi Redmi Note 12 4g Rosa
-'),
-('MLA2030524864', 23277, 'Protector Silicona Liquid Moto G54 Negro
-'),
-('MLA2030524866', 22657, 'Protector Silicona Liquid Xiaomi Redmi 12c Verde Agua
-'),
-('MLA2030524868', 18829, 'Protector Silicona Liquid Samsung S20 Fe Rosa
-'),
-('MLA2030524870', 22771, 'Protector Silicona Liquid Xiaomi Mi 13 Lite 5g Negro
-'),
-('MLA2030524872', 19754, 'Protector Silicona Liquid Moto E22 Verde Agua
-'),
-('MLA2030524874', 25519, 'Protector Silicona Liquid Samsung A06 Rojo
-'),
-('MLA2030524876', 19492, 'Protector Silicona Liquid Samsung A71 Rosa
-'),
-('MLA2030524878', 25705, 'Protector Silicona Liquid Moto G35 Rosa
-'),
-('MLA2030524880', 23367, 'Protector Silicona Liquid Samsung A55 Rosa
-'),
-('MLA2030524882', 23480, 'Protector Silicona Liquid Xiaomi Redmi Note 13 5g Fucsia
-'),
-('MLA2030524884', 20383, 'Protector Silicona Liquid Samsung A54 5g Rojo
-'),
-('MLA2030524886', 20898, 'Protector Silicona Liquid Samsung A01 Core Rojo
-'),
-('MLA2030524888', 24081, 'Protector Silicona Liquid Moto G13/g23 Verde Agua
-'),
-('MLA2030524890', 23824, 'Protector Silicona Liquid Xiaomi Redmi Note 13 Pro 4g Negro
-'),
-('MLA2030524892', 9810, 'Protector Silicona Liquid LG K11/k11 Plus
-'),
-('MLA2030524894', 16384, 'Protector Silicona Liquid Moto G22 Negro
-'),
-('MLA2030524896', 22911, 'Protector Silicona Liquid Samsung S24 Plus Rosa
-'),
-('MLA2030524898', 25708, 'Protector Silicona Liquid Moto G35 Rojo
-'),
-('MLA2030524902', 17227, 'Protector Silicona Liquid Moto G52/g82 Rosa
-'),
-('MLA2030524904', 20377, 'Protector Silicona Liquid Moto Edge 30 Neo Rosa
-'),
-('MLA2030524906', 22885, 'Protector Silicona Liquid Moto G14 Lila
-'),
-('MLA2030524908', 13214, 'Protector Silicona Liquid Samsung A22 4g Negro
-'),
-('MLA2030524912', 24858, 'Protector Silicona Liquid Moto G04 Rosa
-'),
-('MLA2030524914', 24754, 'Protector Silicona Liquid Moto Edge 40 Neo Rojo
-'),
-('MLA2030538170', 24080, 'Protector Silicona Liquid Moto G13/g23 Azul
-'),
-('MLA2030538172', 25720, 'Protector Silicona Liquid Moto G55 Azul
-'),
-('MLA2030538174', 23811, 'Protector Silicona Liquid Xiaomi Note 11 4g Rosa
-'),
-('MLA2030538176', 16373, 'Protector Silicona Liquid Samsung A23 4g Rojo
-'),
-('MLA2030538178', 23529, 'Protector Silicona Liquid Xiaomi Note 11 4g Rojo
-'),
-('MLA2030538180', 22879, 'Protector Silicona Liquid Samsung A15 Negro
-'),
-('MLA2030538186', 20684, 'Protector Silicona Liquid Samsung A14 Rojo
-'),
-('MLA2030538188', 15176, 'Protector Silicona Liquid Samsung S22 Ultra Negro
-'),
-('MLA2030538190', 25586, 'Protector Silicona Liquid Samsung A55 Celeste
-'),
-('MLA2030538192', 23507, 'Protector Silicona Xiaomi Redmi Note 13 Pro Plus 5g Negro
-'),
-('MLA2030538194', 16377, 'Protector Silicona Liquid Samsung A33 5g Rojo
-'),
-('MLA2030538196', 22772, 'Protector Silicona Liquid Xiaomi Mi 13 Lite 5g Rosa
-'),
-('MLA2030538198', 25463, 'Protector Silicona Liquid Samsung A06 Negro
-'),
-('MLA2030538200', 19445, 'Protector Silicona Liquid Samsung S23 Plus Rosa
-'),
-('MLA2030538202', 19440, 'Protector Silicona Liquid Samsung A14 Rosa
-'),
-('MLA2030538204', 23498, 'Xiaomi Redmi Note 13 Pro 5g/poco X6 Amarillo
-'),
-('MLA2030538206', 19441, 'Protector Silicona Liquid Samsung S23 Rosa
-'),
-('MLA2030538208', 16396, 'Protector Silicona Liquid Samsung A13 4g/5g Rojo
-'),
-('MLA2030538210', 22616, 'Protector Silicona Liquid Xiaomi Redmi Note 12 Pro 5g Uva
-'),
-('MLA2030538212', 25064, 'Protector Silicona Liquid Moto G34 Rosa
-'),
-('MLA2030538214', 18394, 'Protector Silicona Liquid Samsung S22 Plus Azul
-'),
-('MLA2030538216', 20395, 'Protector Silicona Liquid Moto G73 Rosa
-'),
-('MLA2030538218', 16393, 'Protector Silicona Liquid Samsung A03 Negro
-'),
-('MLA2030538222', 15530, 'Protector Silicona Liquid Moto E7 Power Rosa
-'),
-('MLA2030538224', 25529, 'Protector Silicona Liquid Samsung A16 Verde Agua
-'),
-('MLA2030538228', 15533, 'Protector Silicona Liquid Moto E7 Power Rojo
-'),
-('MLA2030551130', 19005, 'Protector Silicona Liquid Samsung A20 S Rosa
-'),
-('MLA2030551132', 24331, 'Protector Silicona Liquid Xiaomi Redmi Note 13 Pro 4g Rojo
-'),
-('MLA2030551134', 20311, 'Protector Silicona Liquid Samsung A52 Azul
-'),
-('MLA2030551136', 11559, 'Protector Silicona Liquid Samsung S10 Plus
-'),
-('MLA2030551138', 22656, 'Protector Silicona Liquid Xiaomi Redmi 12c Violeta
-'),
-('MLA2030551140', 19075, 'Protector Silicona Liquid Samsung A02 Negro
-'),
-('MLA2030551142', 22977, 'Protector Silicona Liquid Moto G53 Rosa
-'),
-('MLA2030551144', 24079, 'Protector Silicona Liquid Moto G14 Verde Agua
-'),
-('MLA2030551146', 23062, 'Protector Silicona Liquid Moto G84 Azul
-'),
-('MLA2030551148', 20389, 'Protector Silicona Liquid Samsung A04 E Negro
-'),
-('MLA2030551150', 22874, 'Protector Silicona Liquid Samsung A15 Fucsia
-'),
-('MLA2030551152', 20385, 'Protector Silicona Liquid Samsung A54 5g Rosa
-'),
-('MLA2030551154', 19077, 'Protector Silicona Liquid Samsung A02 Rosa
-'),
-('MLA2030551158', 16634, 'Protector Silicona Liquid Samsung A13 4g/5g Azul
-'),
-('MLA2030551160', 19794, 'Protector Silicona Liquid Moto Edge 30 Ultra Azul
-'),
-('MLA2030551162', 22651, 'Protector Silicona Liquid Xiaomi Redmi 12c Uva
-'),
-('MLA2030551164', 17231, 'Protector Silicona Liquid Samsung M23 5g Rosa
-'),
-('MLA2030551166', 22920, 'Protector Silicona Liquid Samsung S23 Fe Violeta
-'),
-('MLA2030551168', 21249, 'Protector Silicona Liquid Samsung A24 Verde Agua
-'),
-('MLA2030551170', 22628, 'Protector Silicona Liquid Xiaomi Poco X5 Verde Agua
-'),
-('MLA2030551172', 20683, 'Protector Silicona Liquid Samsung A14 Verde Agua
-'),
-('MLA2030551174', 19086, 'Protector Silicona Liquid Samsung A52 Negro
-'),
-('MLA2030551178', 25515, 'Protector Silicona Liquid Samsung A06 Azul
-'),
-('MLA2030551180', 22909, 'Protector Silicona Liquid Samsung S24 Plus Rojo
-'),
-('MLA2030551182', 16541, 'Protector Silicona Liquid Samsung A13 4g/5g Verde Agua
-'),
-('MLA2030551184', 17241, 'Protector Silicona Liquid iPhone 13 Pro Max Negro
-'),
-('MLA2030551186', 20398, 'Protector Silicona Liquid Moto G13/g23 Rojo
-'),
-('MLA2030551188', 18389, 'Protector Silicona Liquid Moto Edge 30 5g Rosa
-'),
-('MLA2030551190', 21713, 'Protector Silicona Liquid Samsung A04 Core Rosa
-'),
-('MLA2030551192', 20885, 'Protector Silicona Liquid Samsung A02 S Rosa
-'),
-('MLA2030551194', 22910, 'Protector Silicona Liquid Samsung S24 Plus Verde Agua
-'),
-('MLA2030551196', 18653, 'Protector Silicona Liquid iPhone 14 Pro Negro
-'),
-('MLA2030551198', 16540, 'Protector Silicona Liquid Samsung A03 Verde Agua
-'),
-('MLA2030551200', 16386, 'Protector Silicona Liquid Moto G22 Rojo
-'),
-('MLA2030551202', 19965, 'Protector Silicona Liquid Moto G10/g20/g30 Rojo
-'),
-('MLA2030551204', 18633, 'Protector Silicona Liquid Samsung A04 Rojo
-'),
-('MLA2030551210', 12248, 'Protector Silicona Liquid Moto G50
-'),
-('MLA2030551212', 23484, 'Protector Silicona Liquid Xiaomi Redmi Note 13 5g Bordo
-'),
-('MLA2030551214', 21332, 'Protector Silicona Liquid Samsung A72 Rosa
-'),
-('MLA2030551216', 25693, 'Protector Silicona Liquid Samsung S24 Fe Rojo
-'),
-('MLA2030551218', 23063, 'Protector Silicona Liquid Moto G84 Rosa
-'),
-('MLA2030551220', 18233, 'Protector Silicona Liquid Samsung A21 Amarillo
-'),
-('MLA2030563918', 16380, 'Protector Silicona Liquid Samsung A73 5g Rosa
-'),
-('MLA2030563922', 25435, 'Protector Silicona Liquid Moto Edge 50 Fusion Rojo
-'),
-('MLA2030563924', 22380, 'Protector Silicona Liquid Xiaomi Note 9 Amarillo
-'),
-('MLA2030563926', 16366, 'Protector Silicona Liquid Samsung A22 5g Negro
-'),
-('MLA2030563928', 26022, 'Protector Silicona Liquid Samsung S8 Plus Negro
-'),
-('MLA2030563930', 16368, 'Protector Silicona Liquid Samsung A22 5g Rojo
-'),
-('MLA2030563932', 24349, 'Protector Silicona Liquid Xiaomi Redmi Note 13 4g Verde Agua
-'),
-('MLA2030563934', 22655, 'Protector Silicona Liquid Xiaomi Redmi 12c Azul
-'),
-('MLA2030563936', 19250, 'Protector Silicona Liquid Samsung A51 Rosa
-'),
-('MLA2030563938', 22653, 'Protector Silicona Liquid Xiaomi Redmi 12c Rojo
-'),
-('MLA2030563942', 23473, 'Protector Silicona Xiaomi Redmi 13c/poco C65 Verde Agua
-'),
-('MLA2030563944', 25904, 'Protector Silicona Liquid Moto G24 Celeste
-'),
-('MLA2030563946', 24769, 'Protector Silicona Liquid Moto G04 Azul
-'),
-('MLA2030563948', 25827, 'Protector Silicona Liquid Moto G04 Verde Agua
-'),
-('MLA2030563950', 18840, 'Protector Silicona Liquid Moto E22 Rojo
-'),
-('MLA2030563952', 24785, 'Protector Silicona Liquid Xiaomi Redmi A3 Rojo
-'),
-('MLA2030563954', 14307, 'Protector Silicona Liquid Samsung A03 S Azul
-'),
-('MLA2030563956', 22640, 'Protector Silicona Liquid Samsung A14 Violeta
-'),
-('MLA2030563958', 25727, 'Protector Silicona Liquid Moto G75 Negro
-'),
-('MLA2030563960', 19439, 'Protector Silicona Liquid Samsung A14 Negro
-'),
-('MLA2030563962', 19805, 'Protector Silicona Liquid Moto Edge 30 Fusion Rosa
-'),
-('MLA2030563964', 23482, 'Protector Silicona Liquid Xiaomi Redmi Note 13 5g Celeste
-'),
-('MLA2030563966', 25429, 'Protector Silicona Liquid Xiaomi 14 Ultra Negro
-'),
-('MLA2030563968', 25446, 'Protector Silicona Liquid Xiaomi 9c Negro
-'),
-('MLA2030563970', 17228, 'Protector Silicona Liquid Moto G52/g82 Rojo
-'),
-('MLA2030563972', 22290, 'Protector Silicona Liquid Moto G8 Power Lite Rojo
-'),
-('MLA2030563974', 19293, 'Protector Silicona Liquid Moto Edge 30 Neo Azul
-'),
-('MLA2030563976', 25853, 'Protector Silicona Liquid Moto G85 Azul Oscuro
-'),
-('MLA2030563978', 25442, 'Protector Silicona Liquid Moto Edge 50 Pro Rojo
-'),
-('MLA2030563980', 25520, 'Protector Silicona Liquid Samsung A06 Verde Agua
-'),
-('MLA2030563982', 19757, 'Protector Silicona Liquid Moto G72 Rojo
-'),
-('MLA2030563984', 22626, 'Protector Silicona Liquid Xiaomi Poco X5 Azul
-'),
-('MLA2030563986', 22824, 'Protector Silicona Liquid Samsung A05 S Celeste
-'),
-('MLA2030576886', 20288, 'Protector Silicona Liquid Samsung S20 Fe Fucsia
-'),
-('MLA2030576888', 18656, 'Protector Silicona Liquid iPhone 14 Pro Max Rosa
-'),
-('MLA2030576892', 16388, 'Protector Silicona Liquid Moto G41 Negro
-'),
-('MLA2030576894', 19270, 'Protector Silicona Liquid Samsung S23 Azul
-'),
-('MLA2030576896', 22267, 'Protector Silicona Liquid Moto One Hyper Rosa
-'),
-('MLA2030576898', 21250, 'Protector Silicona Liquid Samsung A54 5g Verde Agua
-'),
-('MLA2030576900', 15424, 'Protector Silicona Liquid Samsung A03 Core Rosa
-'),
-('MLA2030576902', 17318, 'Protector Silicona Liquid Samsung A12 Rosa
-'),
-('MLA2030576904', 21717, 'Protector Silicona Liquid Moto Edge 40 Pro Rosa
-'),
-('MLA2030576906', 18648, 'Protector Silicona Liquid iPhone 14 Max/plus Rosa
-'),
-('MLA2030576908', 16372, 'Protector Silicona Liquid Samsung A23 4g Rosa
-'),
-('MLA2030576910', 22411, 'Protector Silicona Liquid Samsung S23 Fe Azul
-'),
-('MLA2030576912', 23023, 'Protector Silicona Liquid Moto G14 Fucsia
-'),
-('MLA2030576916', 18828, 'Protector Silicona Liquid Samsung S20 Fe Rojo
-'),
-('MLA2030576918', 25913, 'Protector Silicona Liquid Infinix Hot 40i Negro
-'),
-('MLA2030576920', 25439, 'Protector Silicona Liquid Moto Edge 50 Ultra Negro
-'),
-('MLA2030576922', 22339, 'Protector Silicona Liquid Samsung S20 Negro
-'),
-('MLA2030576924', 19811, 'Protector Silicona Liquid Moto Edge 30 Fusion Azul
-'),
-('MLA2030576926', 18236, 'Protector Silicona Liquid Samsung A21 Rosa
-'),
-('MLA2030576928', 18382, 'Protector Silicona Liquid Moto G32 Rojo
-'),
-('MLA2030576930', 22759, 'Protector Silicona Liquid Samsung A05 Rosa
-'),
-('MLA2030576932', 23483, 'Protector Silicona Liquid Xiaomi Redmi Note 13 5g Lila
-'),
-('MLA2030576936', 9942, 'Protector Silicona Liquid Samsung A9 2018
-'),
-('MLA2030576938', 16395, 'Protector Silicona Liquid Samsung A03 Rojo
-'),
-('MLA2030576940', 16394, 'Protector Silicona Liquid Samsung A03 Rosa
-'),
-('MLA2030576942', 22470, 'Protector Silicona Liquid Moto E6 Rosa
-'),
-('MLA2030576944', 23828, 'Protector Silicona Liquid Xiaomi Redmi Note 13 Pro 4g Rosa
-'),
-('MLA2030576946', 22599, 'Protector Silicona Liquid Xiaomi Redmi Note 12 4g Verde Agua
-'),
-('MLA2030576948', 14798, 'Protector Silicona Liquid Diseño A22 4g Gama Arcoiris
-'),
-('MLA2030576950', 18940, 'Protector Silicona Liquid Moto E7 Rojo
-'),
-('MLA2030590056', 17634, 'Protector Silicona Liquid Moto G42 Rosa
-'),
-('MLA2030590060', 25695, 'Protector Silicona Liquid Samsung S24 Fe Verde Agua
-'),
-('MLA2030590062', 20881, 'Protector Silicona Liquid Samsung A02 S Rojo
-'),
-('MLA2030590066', 19804, 'Protector Silicona Liquid Moto Edge 30 Fusion Rojo
-'),
-('MLA2030590068', 25691, 'Protector Silicona Liquid Samsung S24 Fe Rosa
-'),
-('MLA2030590070', 22695, 'Protector Silicona Liquid Samsung A25 Rosa
-'),
-('MLA2030590072', 22604, 'Protector Silicona Liquid Xiaomi Redmi Note 12 4g Verde
-'),
-('MLA2030590074', 22646, 'Protector Silicona Liquid Xiaomi Redmi 12c Negro
-'),
-('MLA2030590076', 22435, 'Protector Silicona Liquid iPhone 12 Mini Rosa
-'),
-('MLA2030590078', 14461, 'Protector Silicona Liquid Moto E40 Negro
-'),
-('MLA2030590080', 20802, 'Protector Silicona Liquid Samsung A04 Lavanda
-'),
-('MLA2030590082', 22973, 'Protector Silicona Liquid Xiaomi Redmi Note 12s Rosa
-'),
-('MLA2030590084', 25469, 'Protector Silicona Liquid Samsung A16 Lila
-'),
-('MLA2030590086', 24344, 'Protector Silicona Liquid Xiaomi Redmi Note 13 4g Gris
-'),
-('MLA2030590088', 25437, 'Protector Silicona Liquid Moto Edge 50 Fusion Rosa
-'),
-('MLA2030590090', 25524, 'Protector Silicona Liquid Samsung A06 Celeste
-'),
-('MLA2030590092', 14309, 'Protector Silicona Liquid Samsung A03 S Rosa
-'),
-('MLA2030590094', 14465, 'Protector Silicona Liquid Moto E40 Celeste
-'),
-('MLA2030590096', 15929, 'Protector Silicona Liquid Moto G71 Negro
-'),
-('MLA2030590100', 23210, 'Protector Silicona Liquid Xiaomi Redmi 10c Verde Agua
-'),
-('MLA2030590102', 14467, 'Protector Silicona Liquid Moto Edge 20 Lite Negro
-'),
-('MLA2030590104', 20896, 'Protector Silicona Liquid Samsung A01 Core Celeste
-'),
-('MLA2030590106', 22410, 'Protector Silicona Liquid Samsung S23 Fe Rojo
-'),
-('MLA2030590108', 23278, 'Protector Silicona Liquid Moto G54 Rosa
-'),
-('MLA2030590110', 15114, 'Protector Silicona Liquid Samsung A10 S Negro
-'),
-('MLA2030590112', 20212, 'Protector Silicona Liquid Samsung A54 5g Negro
-'),
-('MLA2030590114', 22426, 'Protector Silicona Liquid iPhone 11 Rosa
-'),
-('MLA2030590116', 20682, 'Protector Silicona Liquid Samsung A04 E Azul
-'),
-('MLA2030590118', 25466, 'Protector Silicona Liquid Samsung A06 Uva
-'),
-('MLA2030590124', 18660, 'Protector Silicona Liquid Moto G41 Azul
-'),
-('MLA2030590126', 21716, 'Protector Silicona Liquid Moto Edge 40 Pro Rojo
-'),
-('MLA2030590128', 16542, 'Protector Silicona Liquid Samsung A22 5g Verde Agua
-'),
-('MLA2030590130', 9806, 'Protector Silicona Liquid iPhone 5
-'),
-('MLA2030590132', 20878, 'Protector Silicona Liquid Samsung A01 Rosa
-'),
-('MLA2030590134', 18381, 'Protector Silicona Liquid Moto G32 Negro
-'),
-('MLA2030590136', 17132, 'Protector Silicona Liquid Moto G52/g82 Celeste
-'),
-('MLA2030590138', 22913, 'Protector Silicona Liquid Samsung S24 Ultra Negro
-'),
-('MLA2030590140', 18937, 'Protector Silicona Liquid Moto E7 Amarillo
-'),
-('MLA2030590142', 18995, 'Protector Silicona Liquid Samsung A20/a30 Negro
-'),
-('MLA2030590144', 23246, 'Protector Silicona Liquid LG K9 2018 Rosa
-'),
-('MLA2030590146', 22767, 'Protector Silicona Liquid Xiaomi Mi 12 Lite Negro
-'),
-('MLA2030602842', 14470, 'Protector Silicona Liquid Moto Edge 20 Lite Rosa
-'),
-('MLA2030602844', 22878, 'Protector Silicona Liquid Samsung A15 Rosa
-'),
-('MLA2030602848', 18850, 'Protector Silicona Liquid Samsung A21 S Verde Agua
-'),
-('MLA2030602850', 17704, 'Protector Silicona Liquid Samsung A32 4g Negro
-'),
-('MLA2030602854', 22760, 'Protector Silicona Liquid Samsung A05 Verde Agua
-'),
-('MLA2030602856', 20378, 'Protector Silicona Liquid Samsung A34 5g Rojo
-'),
-('MLA2030602858', 25427, 'Protector Silicona Liquid Xiaomi 14 Rosa
-'),
-('MLA2030602862', 24376, 'Protector Silicona Liquid Moto G13/g23 Lila
-'),
-('MLA2030602864', 21089, 'Protector Silicona Liquid Samsung A24 Naranja
-'),
-('MLA2030602866', 13775, 'Protector Silicona Liquid Samsung A22 4g Celeste
-'),
-('MLA2030602870', 19442, 'Protector Silicona Liquid Samsung S23 Plus Negro
-'),
-('MLA2030602872', 16370, 'Protector Silicona Liquid Samsung A23 4g Azul
-'),
-('MLA2030602874', 21341, 'Protector Silicona Liquid Samsung S20 Ultra Rojo
-'),
-('MLA2030602876', 24348, 'Protector Silicona Liquid Xiaomi Redmi Note 13 4g Azul
-'),
-('MLA2030602878', 25858, 'Protector Silicona Liquid Xiaomi Redmi A3 Verde Agua
-'),
-('MLA2030602880', 25556, 'Protector Silicona Liquid Xiaomi Redmi 14c Negro
-'),
-('MLA2030602882', 25692, 'Protector Silicona Liquid Samsung S24 Fe Azul
-'),
-('MLA2030602884', 18827, 'Protector Silicona Liquid Samsung S20 Fe Negro
-'),
-('MLA2030602886', 12147, 'Protector Silicona Liquid Samsung S21 Ultra
-'),
-('MLA2030602888', 15112, 'Protector Silicona Liquid Samsung A10 S Rosa
-'),
-('MLA2030602892', 22609, 'Protector Silicona Liquid Xiaomi Redmi Note 12 Pro 5g Negro
-'),
-('MLA2030602894', 19573, 'Protector Silicona Liquid Samsung A11 Amarillo
-'),
-('MLA2030602896', 25713, 'Protector Silicona Liquid Moto G35 Lila
-'),
-('MLA2030602898', 21083, 'Protector Silicona Liquid Moto Edge 40 Naranja
-'),
-('MLA2030602900', 17238, 'Protector Silicona Liquid iPhone 13 Pro Negro
-'),
-('MLA2030602902', 19766, 'Protector Silicona Liquid Moto G72 Fucsia
-'),
-('MLA2030602904', 15418, 'Protector Silicona Liquid Moto G51 Negro
-'),
-('MLA2030602906', 19268, 'Protector Silicona Liquid Samsung S23 Verde Agua
-'),
-('MLA2030602908', 11204, 'Protector Silicona Liquid iPhone 11 Pro
-'),
-('MLA2030602910', 12144, 'Protector Silicona Liquid LG K22
-'),
-('MLA2030602912', 18639, 'Protector Silicona Liquid Moto Edge 30 Pro Rosa
-'),
-('MLA2030602914', 22904, 'Protector Silicona Liquid Samsung S24 Verde Agua
-'),
-('MLA2030602916', 23477, 'Protector Silicona Liquid Xiaomi Redmi Note 13 5g Azul
-'),
-('MLA2030602920', 22768, 'Protector Silicona Liquid Xiaomi Mi 12 Lite Rosa
-'),
-('MLA2030616032', 12571, 'Protector Silicona Liquid Moto E6 S Rosa
-'),
-('MLA2030616034', 9937, 'Protector Silicona Liquid Xiaomi A2 Lite
-'),
-('MLA2030616036', 22836, 'Protector Silicona Liquid Moto G14 Rojo
-'),
-('MLA2030616038', 20399, 'Protector Silicona Liquid Moto G13/g23 Rosa
-'),
-('MLA2030616040', 19001, 'Protector Silicona Liquid Samsung A50/a30 S Rosa
-'),
-('MLA2030616044', 25432, 'Protector Silicona Liquid Xiaomi 14 Ultra Rosa
-'),
-('MLA2030616046', 16376, 'Protector Silicona Liquid Samsung A33 5g Rosa
-'),
-('MLA2030616052', 22468, 'Protector Silicona Liquid Moto E6 Negro
-'),
-('MLA2030616054', 22428, 'Protector Silicona Liquid iPhone 12 Rosa
-'),
-('MLA2030616056', 23364, 'Protector Silicona Liquid Samsung A35 Rosa
-'),
-('MLA2030616058', 24343, 'Protector Silicona Liquid Xiaomi Redmi Note 13 4g Lila
-'),
-('MLA2030616060', 25704, 'Protector Silicona Liquid Moto G35 Negro
-'),
-('MLA2030616062', 19574, 'Protector Silicona Liquid Samsung A11 Negro
-'),
-('MLA2030616064', 22291, 'Protector Silicona Liquid Moto G8 Power Lite Rosa
-'),
-('MLA2030616066', 16544, 'Protector Silicona Liquid Samsung A53 5g Azul
-'),
-('MLA2030616068', 23495, 'Silicona Xiaomi Redmi Note 13 Pro 5g/poco X6 Naranja
-'),
-('MLA2030616070', 22295, 'Protector Silicona Liquid Xiaomi Redmi 9 Rosa
-'),
-('MLA2030616072', 20387, 'Protector Silicona Liquid Samsung S20 Fe Celeste
-'),
-('MLA2030616074', 22880, 'Protector Silicona Liquid Samsung A15 Azul
-'),
-('MLA2030616076', 24346, 'Protector Silicona Liquid Xiaomi Redmi Note 13 4g Rojo
-'),
-('MLA2030616078', 18652, 'Protector Silicona Liquid iPhone 14 Pro Rosa
-'),
-('MLA2030616080', 15001, 'Protector Silicona Liquid Moto E20 Azul
-'),
-('MLA2030616082', 17317, 'Protector Silicona Liquid Samsung A12 Rojo
-'),
-('MLA2030616084', 19765, 'Protector Silicona Liquid Moto G72 Azul
-'),
-('MLA2030616086', 23506, 'Protector Silicona Xiaomi Redmi Note 13 Pro Plus 5g Azul
-'),
-('MLA2030616088', 24767, 'Protector Silicona Liquid Moto G04 Negro
-'),
-('MLA2030616090', 25697, 'Protector Silicona Liquid Samsung S24 Fe Fucsia
-'),
-('MLA2030616092', 18112, 'Protector Silicona Liquid Samsung A03 Azul
-'),
-('MLA2030616094', 22907, 'Protector Silicona Liquid Samsung S24 Plus Negro
-'),
-('MLA2030616096', 22401, 'Protector Silicona Liquid Samsung S23 Fe Lila
-'),
-('MLA2030616098', 23368, 'Protector Silicona Liquid Samsung A55 Negro
-'),
-('MLA2030616100', 22875, 'Protector Silicona Liquid Samsung A15 Lila
-'),
-('MLA2030616102', 19281, 'Protector Silicona Liquid Samsung S23 Ultra Verde Agua
-'),
-('MLA2030616104', 22919, 'Protector Silicona Liquid Samsung S23 Fe Fucsia
-'),
-('MLA2030616106', 18941, 'Protector Silicona Liquid Moto E7 Rosa
-'),
-('MLA2030616108', 19775, 'Protector Silicona Liquid Moto E13 Lila
-'),
-('MLA2030616110', 24883, 'Protector Silicona Liquid Samsung A35 Verde Agua
-'),
-('MLA2030616112', 19774, 'Protector Silicona Liquid Moto E13 Azul
-'),
-('MLA2030628802', 20384, 'Protector Silicona Liquid Samsung A54 5g Azul
-'),
-('MLA2030628804', 17235, 'Protector Silicona Liquid iPhone 13 Negro
-'),
-('MLA2030628806', 14459, 'Protector Silicona Liquid Samsung S21 Fe Rosa
-'),
-('MLA2030628808', 22433, 'Protector Silicona Liquid iPhone 12 Pro Max Negro
-'),
-('MLA2030628810', 23057, 'Protector Silicona Liquid Moto G10/g20/g30 Azul
-'),
-('MLA2030628812', 17232, 'Protector Silicona Liquid Samsung M23 5g Rojo
-'),
-('MLA2030628814', 18387, 'Protector Silicona Liquid Moto E32 Rosa
-'),
-('MLA2030628818', 25730, 'Protector Silicona Liquid Moto G75 Azul
-'),
-('MLA2030628820', 25718, 'Protector Silicona Liquid Moto G55 Lila
-'),
-('MLA2030628822', 24758, 'Protector Silicona Xiaomi Redmi A3 Negro
-'),
-('MLA2030628824', 9934, 'Protector Silicona Liquid Samsung M30
-'),
-('MLA2030628826', 24768, 'Protector Silicona Liquid Moto G04 Rojo
-'),
-('MLA2030628828', 22658, 'Protector Silicona Liquid Xiaomi Redmi 12c Verde Oscuro
-'),
-('MLA2030628830', 25701, 'Protector Silicona Liquid Samsung S24 Fe Verde
-'),
-('MLA2030628832', 22927, 'Protector Silicona Liquid Samsung S23 Fe Lila Claro
-'),
-('MLA2030628834', 24407, 'Protector Silicona Liquid Xiaomi Poco X6 Pro Azul
-'),
-('MLA2030628836', 25558, 'Protector Silicona Liquid Xiaomi Redmi 14c Rosa
-'),
-('MLA2030628838', 22903, 'Protector Silicona Liquid Samsung S24 Rojo
-'),
-('MLA2030628840', 15417, 'Protector Silicona Liquid Moto G51 Azul
-'),
-('MLA2030628842', 11003, 'Protector Silicona Liquid Samsung Note 10 Pro
-'),
-('MLA2030628844', 22834, 'Protector Silicona Liquid Moto G14 Rosa
-'),
-('MLA2030628846', 21715, 'Protector Silicona Liquid Moto Edge 40 Pro Negro
-'),
-('MLA2030628848', 24787, 'Protector Silicona Liquid Samsung A04 S Rojo
-'),
-('MLA2030628850', 20901, 'Protector Silicona Liquid Samsung A01 Core Rosa
-'),
-('MLA2030628852', 23504, 'Silicona Xiaomi Redmi Note 13 Pro 5g/poco X6 Azul
-'),
-('MLA2030628854', 24763, 'Protector Silicona Liquid Moto G24 Negro
-'),
-('MLA2030628856', 22631, 'Protector Silicona Liquid Xiaomi Poco X5 Fucsia
-'),
-('MLA2030628860', 19088, 'Protector Silicona Liquid Samsung A52 Rosa
-'),
-('MLA2030628862', 22908, 'Protector Silicona Liquid Samsung S24 Plus Azul
-'),
-('MLA2030628866', 25733, 'Protector Silicona Liquid Moto G75 Violeta
-'),
-('MLA2030628868', 15936, 'Protector Silicona Liquid Samsung A53 5g Verde Agua
-'),
-('MLA2030628870', 25921, 'Protector Silicona Liquid Infinix Gt 20 Pro 5g Negro
-'),
-('MLA2030628876', 22611, 'Protector Silicona Liquid Xiaomi Redmi Note 12 Pro 5g Azul
-'),
-('MLA2030628878', 20386, 'Protector Silicona Liquid Samsung A54 5g Celeste
-'),
-('MLA2030642150', 17316, 'Protector Silicona Liquid Samsung A12 Negro
-'),
-('MLA2030642152', 16638, 'Protector Silicona Liquid Samsung A32 5g Azul
-'),
-('MLA2030642154', 23534, 'Protector Silicona Liquid Xiaomi Redmi 12c Verde
-'),
-('MLA2030642156', 25919, 'Protector Silicona Liquid Infinix Note 40 Pro 4g Negro
-'),
-('MLA2030642158', 25440, 'Protector Silicona Liquid Moto Edge 50 Ultra Rosa
-'),
-('MLA2030642160', 9943, 'Protector Silicona Liquid Samsung M10
-'),
-('MLA2030642162', 22421, 'Protector Silicona Liquid Moto G53 Rojo
-'),
-('MLA2030642164', 22762, 'Protector Silicona Liquid Samsung A05 S Azul
-'),
-('MLA2030642166', 25444, 'Protector Silicona Liquid Samsung A55 Rojo
-'),
-('MLA2030642168', 15180, 'Protector Silicona Liquid Samsung A13 4g/5g Negro
-'),
-('MLA2030642170', 22337, 'Protector Silicona Liquid Moto One Zoom Negro
-'),
-('MLA2030642174', 20928, 'Protector Silicona Liquid Samsung A24 Azul
-'),
-('MLA2030642176', 18638, 'Protector Silicona Liquid Moto Edge 30 Pro Negro
-'),
-('MLA2030642178', 22823, 'Protector Silicona Liquid Samsung A05 Celeste
-'),
-('MLA2030642180', 25854, 'Protector Silicona Liquid Moto G85 Negro
-'),
-('MLA2030642182', 18655, 'Protector Silicona Liquid iPhone 14 Pro Max Negro
-'),
-('MLA2030642184', 22923, 'Protector Silicona Liquid Samsung S23 Fe Celeste
-'),
-('MLA2030642186', 18234, 'Protector Silicona Liquid Samsung A21 Negro
-'),
-('MLA2030642188', 22926, 'Protector Silicona Liquid Samsung S23 Fe Azul Cobalto
-'),
-('MLA2030642190', 25852, 'Protector Silicona Liquid Moto G85 Verde Agua
-'),
-('MLA2030642192', 24771, 'Protector Silicona Liquid Moto Edge 40 Azul
-'),
-('MLA2030642194', 17697, 'Protector Silicona Liquid Samsung A21 S Azul
-'),
-('MLA2030642196', 24860, 'Protector Silicona Liquid Moto G24 Rosa
-'),
-('MLA2030642198', 19789, 'Protector Silicona Liquid Moto Edge 30 Ultra Rosa
-'),
-('MLA2030642200', 22649, 'Protector Silicona Liquid Xiaomi Redmi 12c Naranja
-'),
-('MLA2030642202', 13215, 'Protector Silicona Liquid Samsung A22 4g Rosa
-'),
-('MLA2030642204', 19776, 'Protector Silicona Liquid Moto E13 Rojo
-'),
-('MLA2030642208', 22633, 'Protector Silicona Liquid Xiaomi Poco X5 Verde
-'),
-('MLA2030642210', 15174, 'Protector Silicona Liquid Samsung S22 Plus Rojo
-'),
-('MLA2030642214', 22627, 'Protector Silicona Liquid Xiaomi Poco X5 Lila
-'),
-('MLA2030642216', 24345, 'Protector Silicona Liquid Xiaomi Redmi Note 13 4g Violeta
-'),
-('MLA2030642218', 18386, 'Protector Silicona Liquid Moto E32 Azul
-'),
-('MLA2030654858', 18687, 'Protector Silicona Liquid Moto G22 Verde Agua
-'),
-('MLA2030654860', 19577, 'Protector Silicona Liquid Samsung A11 Azul
-'),
-('MLA2030654866', 16365, 'Protector Silicona Liquid Samsung A22 5g Celeste
-'),
-('MLA2030654868', 22595, 'Protector Silicona Liquid Xiaomi Redmi Note 12 4g Negro
-'),
-('MLA2030654870', 25696, 'Protector Silicona Liquid Samsung S24 Fe Verde Oscuro
-'),
-('MLA2030654872', 19249, 'Protector Silicona Liquid Samsung A51 Rojo
-'),
-('MLA2030654874', 20392, 'Protector Silicona Liquid Samsung A04 E Celeste
-'),
-('MLA2030654876', 15422, 'Protector Silicona Liquid Samsung A03 Core Azul
-'),
-('MLA2030654878', 14469, 'Protector Silicona Liquid Moto Edge 20 Lite Azul
-'),
-('MLA2030654880', 20290, 'Protector Silicona Liquid Samsung A04 Lila
-'),
-('MLA2030654884', 25449, 'Protector Silicona Liquid Xiaomi Redmi 9a Rosa
-'),
-('MLA2030654886', 25424, 'Protector Silicona Liquid Xiaomi 14 Negro
-'),
-('MLA2030654888', 22770, 'Protector Silicona Liquid Xiaomi Mi 13 Lite 5g Azul
-'),
-('MLA2030654890', 23490, 'Protector Xiaomi Redmi Note 13 Pro 5g/poco X6 Fucsia
-'),
-('MLA2030654892', 25095, 'Protector Silicona Liquid Samsung A22 4g Azul
-'),
-('MLA2030654894', 19261, 'Protector Silicona Liquid Samsung S23 Rojo
-'),
-('MLA2030654896', 24783, 'Protector Silicona Liquid Moto G34 Azul
-'),
-('MLA2030654898', 16640, 'Protector Silicona Liquid Samsung A33 5g Azul
-'),
-('MLA2030654900', 25526, 'Protector Silicona Liquid Samsung A06 Fucsia
-'),
-('MLA2030654902', 11319, 'Protector Silicona Liquid iPhone 11 Pro Max
-'),
-('MLA2030654904', 23487, 'Protector Silicona Xiaomi Redmi Note 13 5g Verde Oscuro
-'),
-('MLA2030654906', 23461, 'Protector Silicona Liquid Xiaomi Redmi 13c/poco C65 Negro
-'),
-('MLA2030654908', 19798, 'Protector Silicona Liquid Moto Edge 30 Fusion Celeste
-'),
-('MLA2030654910', 21684, 'Protector Silicona Liquid Samsung S22 Ultra Azul
-'),
-('MLA2030654912', 19490, 'Protector Silicona Liquid Samsung A71 Negro
-'),
-('MLA2030654914', 24087, 'Protector Silicona Liquid Samsung A04 S Verde Agua
-'),
-('MLA2030654916', 20882, 'Protector Silicona Liquid Samsung A02 S Verde Agua
-'),
-('MLA2030654920', 25719, 'Protector Silicona Liquid Moto G55 Rojo
-'),
-('MLA2030654922', 20931, 'Protector Silicona Liquid Samsung A24 Rojo
-'),
-('MLA2030654928', 23469, 'Protector Silicona Liquid Xiaomi Redmi 13c/poco C65 Fucsia
-'),
-('MLA2030667824', 9940, 'Protector Silicona Liquid Xiaomi Mi 9 Se
-'),
-('MLA2030667826', 18636, 'Protector Silicona Liquid Moto Edge 30 5g Negro
-'),
-('MLA2030667828', 16389, 'Protector Silicona Liquid Moto G41 Rosa
-'),
-('MLA2030667830', 16639, 'Protector Silicona Liquid Samsung A32 5g Rosa
-'),
-('MLA2030667832', 21712, 'Protector Silicona Liquid Samsung A04 Core Rojo
-'),
-('MLA2030667834', 25063, 'Protector Silicona Liquid Moto Edge 50 Pro Rosa
-'),
-('MLA2030667836', 19964, 'Protector Silicona Liquid Moto G10/g20/g30 Rosa
-'),
-('MLA2030667840', 22600, 'Protector Silicona Liquid Xiaomi Redmi Note 12 4g Rojo
-'),
-('MLA2030667842', 11562, 'Protector Silicona Liquid Samsung S10
-'),
-('MLA2030667844', 22602, 'Protector Silicona Liquid Xiaomi Redmi Note 12 4g Fucsia
-'),
-('MLA2030667846', 15181, 'Protector Silicona Liquid Samsung A13 4g/5g Rosa
-'),
-('MLA2030667848', 19749, 'Protector Silicona Liquid Moto E22 Celeste
-'),
-('MLA2030667850', 23061, 'Protector Silicona Liquid Moto G84 Rojo
-'),
-('MLA2030667852', 18826, 'Protector Silicona Liquid Samsung S20 Fe Azul
-'),
-('MLA2030667854', 19283, 'Protector Silicona Liquid Samsung S23 Ultra Lila
-'),
-('MLA2030667856', 19068, 'Protector Silicona Liquid Samsung A31 Rojo
-'),
-('MLA2030667858', 19206, 'Protector Silicona Liquid Moto G8 Negro
-'),
-('MLA2030667860', 22648, 'Protector Silicona Liquid Xiaomi Redmi 12c Fucsia
-'),
-('MLA2030667862', 22610, 'Protector Silicona Liquid Xiaomi Redmi Note 12 Pro 5g Rosa
-'),
-('MLA2030667866', 23486, 'Protector Silicona Liquid Xiaomi Redmi Note 13 5g Verde Agua
-'),
-('MLA2030667868', 23510, 'Protector Silicona Xiaomi Redmi Note 13 Pro Plus 5g Rosa
-'),
-('MLA2030667870', 20394, 'Protector Silicona Liquid Moto G73 Negro
-'),
-('MLA2030667872', 22822, 'Protector Silicona Liquid Samsung A05 Rojo
-'),
-('MLA2030667874', 22432, 'Protector Silicona Liquid iPhone 12 Pro Max Rosa
-'),
-('MLA2030667876', 22976, 'Protector Silicona Liquid Xiaomi Redmi 10c Azul
-'),
-('MLA2030667878', 14313, 'Protector Silicona Liquid Samsung J7/j7 Neo Negro
-'),
-('MLA2030667880', 23453, 'Protector Silicona Liquid Moto Edge 40 Neo Azul
-'),
-('MLA2030667882', 20380, 'Protector Silicona Liquid Samsung A34 5g Rosa
-'),
-('MLA2030667884', 22835, 'Protector Silicona Liquid Moto G14 Azul
-'),
-('MLA2030667886', 20879, 'Protector Silicona Liquid Samsung A01 Amarillo
-'),
-('MLA2030667888', 19443, 'Protector Silicona Liquid Samsung S23 Plus Rojo
-'),
-('MLA2030667890', 25465, 'Protector Silicona Liquid Samsung A06 Rosa
-'),
-('MLA2030667892', 25096, 'Protector Silicona Liquid Moto G24 Lavanda
-'),
-('MLA2030681050', 19087, 'Protector Silicona Liquid Samsung A52 Rojo
-'),
-('MLA2030681052', 25917, 'Protector Silicona Liquid Infinix Smart 8 Negro
-'),
-('MLA2030681054', 19781, 'Protector Silicona Liquid Moto Edge 30 Ultra Rojo
-'),
-('MLA2030681056', 25824, 'Protector Silicona Liquid Samsung A11 Lila
-'),
-('MLA2030681058', 22400, 'Protector Silicona Liquid Samsung S23 Fe Rosa
-'),
-('MLA2030681060', 20294, 'Protector Silicona Liquid Samsung A51 Lila
-'),
-('MLA2030681062', 19447, 'Protector Silicona Liquid Samsung S23 Ultra Rojo
-'),
-('MLA2030681064', 19085, 'Protector Silicona Liquid Samsung A52 Celeste
-'),
-('MLA2030681066', 16379, 'Protector Silicona Liquid Samsung A73 5g Negro
-'),
-('MLA2030681068', 22757, 'Protector Silicona Liquid Samsung A05 Azul
-'),
-('MLA2030681070', 22901, 'Protector Silicona Liquid Samsung S24 Negro
-'),
-('MLA2030681072', 23476, 'Protector Silicona Liquid Xiaomi Redmi Note 13 5g Negro
-'),
-('MLA2030681074', 19290, 'Protector Silicona Liquid Moto Edge 30 Neo Negro
-'),
-('MLA2030681076', 22430, 'Protector Silicona Liquid iPhone 12 Pro Rosa
-'),
-('MLA2030681078', 24410, 'Protector Silicona Liquid Xiaomi Poco X6 Pro Rosa
-'),
-('MLA2030681080', 15531, 'Protector Silicona Liquid Moto E7 Power Negro
-'),
-('MLA2030681082', 25447, 'Protector Silicona Liquid Xiaomi 9c Rosa
-'),
-('MLA2030681084', 25426, 'Protector Silicona Liquid Xiaomi 14 Azul
-'),
-('MLA2030681086', 18839, 'Protector Silicona Liquid Moto E22 Rosa
-'),
-('MLA2030681088', 22632, 'Protector Silicona Liquid Xiaomi Poco X5 Violeta
-'),
-('MLA2030681090', 20390, 'Protector Silicona Liquid Samsung A04 E Rojo
-'),
-('MLA2030681092', 24782, 'Protector Silicona Liquid Moto G34 Rojo
-'),
-('MLA2030681094', 19067, 'Protector Silicona Liquid Samsung A31 Negro
-'),
-('MLA2030681096', 24350, 'Protector Silicona Liquid Xiaomi Redmi Note 13 4g Rosa
-'),
-('MLA2030681098', 18383, 'Protector Silicona Liquid Moto G32 Rosa
-'),
-('MLA2030681100', 25804, 'Protector Silicona Liquid Samsung A20/a30 Azul
-'),
-('MLA2030681102', 19004, 'Protector Silicona Liquid Samsung A20 S Rojo
-'),
-('MLA2030681104', 22471, 'Protector Silicona Liquid Moto E6 Rojo
-'),
-('MLA2030681106', 23192, 'Protector Silicona Liquid Moto G100 Negro
-'),
-('MLA2030693832', 17319, 'Protector Silicona Liquid Samsung A12 Verde Agua
-'),
-('MLA2030693834', 20926, 'Protector Silicona Liquid Moto Edge 40 Rosa
-'),
-('MLA2030693838', 19576, 'Protector Silicona Liquid Samsung A11 Rosa
-'),
-('MLA2030693840', 23463, 'Protector Silicona Liquid Xiaomi Redmi 13c/poco C65 Lavanda
-'),
-('MLA2030693842', 18996, 'Protector Silicona Liquid Samsung A20/a30 Rosa
-'),
-('MLA2030693844', 14308, 'Protector Silicona Liquid Samsung A03 S Negro
-'),
-('MLA2030693846', 16391, 'Protector Silicona Liquid Moto G71 Rojo
-'),
-('MLA2030693848', 23520, 'Protector Silicona Liquid Xiaomi Note 11 4g Verde Fluor
-'),
-('MLA2030693850', 15933, 'Protector Silicona Liquid Samsung A53 5g Negro
-'),
-('MLA2030693852', 18393, 'Protector Silicona Liquid Samsung S9 Rosa
-'),
-('MLA2030693854', 22916, 'Protector Silicona Liquid Samsung S24 Ultra Verde Agua
-'),
-('MLA2030693856', 18634, 'Protector Silicona Liquid Samsung A04 Verde Agua
-'),
-('MLA2030693858', 25473, 'Protector Silicona Liquid Samsung A16 Negro
-'),
-('MLA2030693860', 14472, 'Protector Silicona Liquid Moto Edge 20 Pro Negro
-'),
-('MLA2030693862', 21331, 'Protector Silicona Liquid Samsung A72 Negro
-'),
-('MLA2030693864', 25523, 'Protector Silicona Liquid Samsung A06 Verde Oscuro
-'),
-('MLA2030693866', 22601, 'Protector Silicona Xiaomi Redmi Note 12 4g Verde Oscuro
-'),
-('MLA2030693870', 23818, 'Protector Silicona Liquid Xiaomi Redmi 13c/poco C65 Rosa
-'),
-('MLA2030693874', 25472, 'Protector Silicona Liquid Samsung A16 Rosa
-'),
-('MLA2030693876', 18838, 'Protector Silicona Liquid Moto E22 Negro
-'),
-('MLA2030693878', 19452, 'Protector Silicona Liquid Samsung A04 S Rosa
-'),
-('MLA2030693882', 14999, 'Protector Silicona Liquid Moto E20 Negro
-'),
-('MLA2030693884', 23250, 'Protector Silicona Liquid LG K50 S Amarillo
-'),
-('MLA2030693886', 25430, 'Protector Silicona Liquid Xiaomi 14 Ultra Rojo
-'),
-('MLA2030693888', 22915, 'Protector Silicona Liquid Samsung S24 Ultra Rojo
-'),
-('MLA2030693890', 17314, 'Protector Silicona Liquid Samsung A12 Celeste
-'),
-('MLA2030693892', 18849, 'Protector Silicona Liquid Samsung A04 Celeste
-'),
-('MLA2030693894', 25521, 'Protector Silicona Liquid Samsung A06 Lila
-'),
-('MLA2030693896', 25707, 'Protector Silicona Liquid Moto G35 Azul
-'),
-('MLA2030693898', 22398, 'Protector Silicona Liquid Samsung S23 Fe Bordo
-'),
-('MLA2030693900', 22924, 'Protector Silicona Liquid Samsung S23 Fe Naranja
-'),
-('MLA2030693902', 11006, 'Protector Silicona Liquid Xiaomi Redmi 7
-'),
-('MLA2030693904', 9944, 'Protector Silicona Liquid Samsung A7 2018
-'),
-('MLA2030693906', 17239, 'Protector Silicona Liquid iPhone 13 Pro Rosa
-'),
-('MLA2030693910', 14310, 'Protector Silicona Liquid Samsung A03 S Rojo
-'),
-('MLA2030693912', 22284, 'Protector Silicona Liquid Moto E13 Fucsia
-'),
-('MLA2030693914', 22429, 'Protector Silicona Liquid iPhone 12 Azul
-'),
-('MLA2030693916', 19771, 'Protector Silicona Liquid Moto E13 Rosa
-'),
-('MLA2030693918', 20883, 'Protector Silicona Liquid Samsung A02 S Azul
-'),
-('MLA2030693920', 22917, 'Protector Silicona Liquid Samsung S24 Ultra Rosa
-'),
-('MLA2030693922', 22774, 'Protector Silicona Liquid Xiaomi Redmi 10c Negro
-'),
-('MLA2030693924', 25796, 'Protector Silicona Liquid Moto G54 Rojo
-'),
-('MLA2030706854', 24786, 'Protector Silicona Liquid Moto G10/g20/g30 Fucsia
-'),
-('MLA2030706856', 19003, 'Protector Silicona Liquid Samsung A20 S Negro
-'),
-('MLA2030706858', 24325, 'Protector Silicona Liquid Samsung A50/a30 S Azul
-'),
-('MLA2030706860', 22833, 'Protector Silicona Liquid Moto G14 Negro
-'),
-('MLA2030706862', 16367, 'Protector Silicona Liquid Samsung A22 5g Rosa
-'),
-('MLA2030706864', 20880, 'Protector Silicona Liquid Samsung A02 S Celeste
-'),
-('MLA2030706866', 24078, 'Protector Silicona Liquid Moto G54 Azul
-'),
-('MLA2030706868', 22402, 'Protector Silicona Liquid Samsung S23 Fe Negro
-'),
-('MLA2030706872', 24085, 'Protector Silicona Liquid Samsung A55 Verde Agua
-'),
-('MLA2030706874', 23365, 'Protector Silicona Liquid Samsung A35 Negro
-'),
-('MLA2030706876', 15413, 'Protector Silicona Liquid Moto G31 Negro
-'),
-('MLA2030706878', 25826, 'Protector Silicona Liquid Moto G04 Lila
-'),
-('MLA2030706880', 15168, 'Protector Silicona Liquid Samsung S22 Negro
-'),
-('MLA2030706882', 22635, 'Protector Silicona Liquid Xiaomi Poco X5 Uva
-'),
-('MLA2030706884', 19809, 'Protector Silicona Liquid Moto Edge 30 Fusion Negro
-'),
-('MLA2030706886', 22921, 'Protector Silicona Liquid Samsung S23 Fe Amarillo
-'),
-('MLA2030706888', 24409, 'Protector Silicona Liquid Xiaomi Poco X6 Pro Negro
-'),
-('MLA2030706890', 24097, 'Protector Silicona Liquid Samsung A35 Azul
-'),
-('MLA2030706892', 25614, 'Protector Silicona Liquid Samsung A15 Celeste
-'),
-('MLA2030706896', 25694, 'Protector Silicona Liquid Samsung S24 Fe Lila
-'),
-('MLA2030706898', 19772, 'Protector Silicona Liquid Moto E13 Verde Agua
-'),
-('MLA2030706900', 22775, 'Protector Silicona Liquid Xiaomi Redmi 10c Rosa
-'),
-('MLA2030706904', 25470, 'Protector Silicona Liquid Samsung A16 Azul
-'),
-('MLA2030706908', 18631, 'Protector Silicona Liquid Samsung A04 Negro
-'),
-('MLA2030706910', 19076, 'Protector Silicona Liquid Samsung A02 Rojo
-'),
-('MLA2030706912', 17242, 'Protector Silicona Liquid iPhone 13 Pro Max Rosa
-'),
-('MLA2030706918', 17236, 'Protector Silicona Liquid iPhone 13 Rosa
-'),
-('MLA2030706920', 18635, 'Protector Silicona Liquid Moto Edge 30 5g Azul
-'),
-('MLA2030706922', 19451, 'Protector Silicona Liquid Samsung A04 S Negro
-'),
-('MLA2030706924', 22606, 'Protector Silicona Liquid Xiaomi Redmi Note 12 4g Uva
-'),
-('MLA2030706928', 12570, 'Protector Silicona Liquid Moto E6 S Negro
-'),
-('MLA2030706930', 22758, 'Protector Silicona Liquid Samsung A05 Negro
-'),
-('MLA2030706932', 13776, 'Protector Silicona Liquid Samsung A22 4g Rojo
-'),
-('MLA2030706934', 15419, 'Protector Silicona Liquid Moto G51 Rosa
-'),
-('MLA2030706936', 22338, 'Protector Silicona Liquid Moto One Zoom Amarillo
-'),
-('MLA2030706938', 20899, 'Protector Silicona Liquid Samsung A01 Core Amarillo
-'),
-('MLA2030706940', 24254, 'Protector Silicona Liquid Xiaomi Redmi 12c Lila
-'),
-('MLA2030706942', 25879, 'Protector Silicona Liquid Samsung A54 5g Lila
-'),
-('MLA2030706944', 20397, 'Protector Silicona Liquid Moto G13/g23 Negro
-'),
-('MLA2030706946', 20382, 'Protector Silicona Liquid Samsung A51 Azul
-'),
-('MLA2030719668', 23195, 'Protector Silicona Liquid Moto G100 Rojo
-'),
-('MLA2030719670', 23208, 'Protector Silicona Liquid Xiaomi Redmi Note 12s Azul
-'),
-('MLA2030719672', 21340, 'Protector Silicona Liquid Samsung S20 Ultra Negro
-'),
-('MLA2030719674', 16643, 'Protector Silicona Liquid Samsung S21 Fe Rojo
-'),
-('MLA2030719676', 22914, 'Protector Silicona Liquid Samsung S24 Ultra Azul
-'),
-('MLA2030719678', 17633, 'Protector Silicona Liquid Moto G42 Negro
-'),
-('MLA2030719680', 18939, 'Protector Silicona Liquid Moto E7 Negro
-'),
-('MLA2030719682', 23826, 'Protector Silicona Liquid Xiaomi Redmi Note 13 Pro 4g Fucsia
-'),
-('MLA2030719684', 19446, 'Protector Silicona Liquid Samsung S23 Ultra Negro
-'),
-('MLA2030719686', 23518, 'Protector Silicona Liquid Xiaomi Note 11 4g Negro
-'),
-('MLA2030719688', 20379, 'Protector Silicona Liquid Samsung A34 5g Azul
-'),
-('MLA2030719690', 20930, 'Protector Silicona Liquid Samsung A24 Rosa
-'),
-('MLA2030719692', 9939, 'Protector Silicona Liquid Xiaomi Mi 9
-'),
-('MLA2030719694', 20210, 'Protector Silicona Liquid Samsung A34 5g Negro
-'),
-('MLA2030719696', 24784, 'Protector Silicona Xiaomi Redmi Note 13 Pro 5g/poco X6 Rosa
-'),
-('MLA2030719700', 21779, 'Protector Silicona Liquid Samsung A10 Negro
-'),
-('MLA2030719702', 25699, 'Protector Silicona Liquid Samsung S24 Fe Violeta
-'),
-('MLA2030719704', 25436, 'Protector Silicona Liquid Moto Edge 50 Fusion Azul
-'),
-('MLA2030719706', 22603, 'Protector Silicona Liquid Xiaomi Redmi Note 12 4g Violeta
-'),
-('MLA2030719708', 23247, 'Protector Silicona Liquid LG K9 2018 Negro
-'),
-('MLA2030719710', 18842, 'Protector Silicona Liquid Moto E22 Azul
-'),
-('MLA2030719712', 20681, 'Protector Silicona Liquid Samsung A04 E Verde Agua
-'),
-('MLA2030719714', 20929, 'Protector Silicona Liquid Samsung A24 Negro
-'),
-('MLA2030719716', 23466, 'Protector Silicona Liquid Xiaomi Redmi 13c/poco C65 Azul
-'),
-('MLA2030719718', 15002, 'Protector Silicona Liquid Moto E20 Rosa
-'),
-('MLA2030719720', 23472, 'Protector Silicona Xiaomi Redmi 13c/poco C65 Verde Fluor
-'),
-('MLA2030719722', 25690, 'Protector Silicona Liquid Samsung S24 Fe Negro
-'),
-('MLA2030719724', 14474, 'Protector Silicona Liquid Moto Edge 20 Pro Azul
-'),
-('MLA2030719726', 14544, 'Protector Silicona Liquid Moto E20 Amarillo
-'),
-('MLA2030719728', 20391, 'Protector Silicona Liquid Samsung A04 E Rosa
-'),
-('MLA2030719730', 25901, 'Protector Silicona Liquid Samsung A55 Lila
-'),
-('MLA2030719732', 25445, 'Protector Silicona Liquid Xiaomi Redmi 9a Amarillo
-'),
-('MLA2030719734', 19279, 'Protector Silicona Liquid Samsung S23 Ultra Fucsia
-'),
-('MLA2030719736', 23485, 'Protector Silicona Liquid Xiaomi Redmi Note 13 5g Verde
-'),
-('MLA2030719738', 23499, 'Protector Silicona Xiaomi Redmi Note 13 Pro 5g/poco X6 Rojo');
 
+('MLA1907537586', 25074),
+('MLA1457129159', 21211),
+('MLA1457129161', 21207),
+('MLA1457129163', 20715),
+('MLA1457129165', 20713),
+('MLA1457129167', 20723),
+('MLA1457129169', 21844),
+('MLA1457142101', 21845),
+('MLA1457142103', 21853),
+('MLA1457142105', 21838),
+('MLA1457154861', 20947),
+('MLA1457154865', 21846),
+('MLA1457154869', 21850),
+('MLA1457167899', 21855),
+('MLA1457167901', 20722),
+('MLA1457167903', 21213),
+('MLA1457167905', 21842),
+('MLA1457167907', 20944),
+('MLA1457167909', 21848),
+('MLA1457180907', 20724),
+('MLA1457180909', 21841),
+('MLA1457180911', 21852),
+('MLA1457180913', 21212),
+('MLA1457193849', 20207),
+('MLA1506377985', 15910),
+('MLA1506377987', 18823),
+('MLA1506377989', 14910),
+('MLA1506377991', 17415),
+('MLA1506377993', 23540),
+('MLA1506377995', 10456),
+('MLA1506377997', 16181),
+('MLA1506377999', 25135),
+('MLA1506378001', 14669),
+('MLA1506378003', 10532),
+('MLA1506378005', 19238),
+('MLA1506378009', 15404),
+('MLA1506378011', 19911),
+('MLA1506378015', 10579),
+('MLA1506378019', 16150),
+('MLA1506378021', 24314),
+('MLA1506378023', 14668),
+('MLA1506378025', 25643),
+('MLA1506378027', 21490),
+('MLA1506378029', 10483),
+('MLA1506378031', 10505),
+('MLA1506378033', 25139),
+('MLA1506378037', 24777),
+('MLA1506378039', 23259),
+('MLA1506378041', 23056),
+('MLA1506378043', 26577),
+('MLA1506378045', 10430),
+('MLA1506378047', 25415),
+('MLA1506378049', 24092),
+('MLA1506378051', 18822),
+('MLA1506378053', 14296),
+('MLA1506378055', 15377),
+('MLA1506378057', 22562),
+('MLA1506378059', 20047),
+('MLA1506378061', 25866),
+('MLA1506378063', 24929),
+('MLA1506385601', 10630),
+('MLA1506385603', 20223),
+('MLA1506385607', 10415),
+('MLA1506385609', 10454),
+('MLA1506385611', 23147),
+('MLA1506385613', 20059),
+('MLA1506385615', 19048),
+('MLA1506385617', 10638),
+('MLA1506385621', 23253),
+('MLA1506385623', 10449),
+('MLA1506385625', 23006),
+('MLA1506385627', 25182),
+('MLA1506385631', 22789),
+('MLA1506385635', 10492),
+('MLA1506385637', 16182),
+('MLA1506385639', 10835),
+('MLA1506385641', 17438),
+('MLA1506385643', 23374),
+('MLA1506385647', 20330),
+('MLA1506385649', 10809),
+('MLA1506385651', 19628),
+('MLA1506385653', 15515),
+('MLA1506385655', 10642),
+('MLA1506385657', 22568),
+('MLA1506385659', 10644),
+('MLA1506385661', 20054),
+('MLA1506385665', 20262),
+('MLA1506385667', 18817),
+('MLA1506385669', 19542),
+('MLA1506385671', 10653),
+('MLA1506385673', 10490),
+('MLA1506385675', 10565),
+('MLA1506385677', 17486),
+('MLA1506385681', 20050),
+('MLA1506385683', 17393),
+('MLA1506385685', 20797),
+('MLA1506385687', 17443),
+('MLA1506385689', 17303),
+('MLA1506385691', 26381),
+('MLA1506385693', 22790),
+('MLA1506385695', 10572),
+('MLA1506385697', 10495),
+('MLA1506385699', 21283),
+('MLA2030473140', 15420),
+('MLA2030473142', 23060),
+('MLA2030473146', 24086),
+('MLA2030473148', 19449),
+('MLA2030473152', 25443),
+('MLA2030473154', 24753),
+('MLA2030473156', 21711),
+('MLA2030473158', 19444),
+('MLA2030473160', 23830),
+('MLA2030473162', 24764),
+('MLA2030473164', 23523),
+('MLA2030473166', 17313),
+('MLA2030473168', 25425),
+('MLA2030473170', 23834),
+('MLA2030473172', 24084),
+('MLA2030473174', 25448),
+('MLA2030473176', 22654),
+('MLA2030473178', 25434),
+('MLA2030473180', 9933),
+('MLA2030473182', 15000),
+('MLA2030473184', 17702),
+('MLA2030473186', 20925),
+('MLA2030473188', 22763),
+('MLA2030473190', 17701),
+('MLA2030473192', 22268),
+('MLA2030473194', 20884),
+('MLA2030473196', 25560),
+('MLA2030473198', 24447),
+('MLA2030473200', 15412),
+('MLA2030486160', 18235),
+('MLA2030486162', 22469),
+('MLA2030486164', 20381),
+('MLA2030486166', 19899),
+('MLA2030486168', 15172),
+('MLA2030486170', 24760),
+('MLA2030486172', 17706),
+('MLA2030486176', 25062),
+('MLA2030486178', 19448),
+('MLA2030486182', 17129),
+('MLA2030486186', 16383),
+('MLA2030486188', 19069),
+('MLA2030486190', 9945),
+('MLA2030486194', 22296),
+('MLA2030486196', 22694),
+('MLA2030486198', 23193),
+('MLA2030486204', 11710),
+('MLA2030486206', 18392),
+('MLA2030486208', 18632),
+('MLA2030486210', 21335),
+('MLA2030486214', 15935),
+('MLA2030486216', 14462),
+('MLA2030486220', 22340),
+('MLA2030486222', 22598),
+('MLA2030486224', 16645),
+('MLA2030486226', 14475),
+('MLA2030486230', 15415),
+('MLA2030486232', 20803),
+('MLA2030486234', 24332),
+('MLA2030486236', 22765),
+('MLA2030486238', 17699),
+('MLA2030486240', 10132),
+('MLA2030499062', 18659),
+('MLA2030499064', 19761),
+('MLA2030499066', 22605),
+('MLA2030499068', 19784),
+('MLA2030499070', 15934),
+('MLA2030499072', 19258),
+('MLA2030499074', 23237),
+('MLA2030499104', 25717),
+('MLA2030499106', 22406),
+('MLA2030499108', 11006),
+('MLA2030499114', 23454),
+('MLA2030499118', 25902),
+('MLA2030499120', 22902),
+('MLA2030499122', 18385),
+('MLA2030499124', 25915),
+('MLA2030499126', 19272),
+('MLA2030499130', 22905),
+('MLA2030499132', 15177),
+('MLA2030499134', 22764),
+('MLA2030499136', 24761),
+('MLA2030499138', 15173),
+('MLA2030499140', 23474),
+('MLA2030499148', 19770),
+('MLA2030499152', 22755),
+('MLA2030499154', 21337),
+('MLA2030499156', 25609),
+('MLA2030512008', 25557),
+('MLA2030512010', 10032),
+('MLA2030512012', 25822),
+('MLA2030512014', 25855),
+('MLA2030512016', 11004),
+('MLA2030512018', 19298),
+('MLA2030512020', 19807),
+('MLA2030512024', 19591),
+('MLA2030512026', 25061),
+('MLA2030512028', 14314),
+('MLA2030512030', 13216),
+('MLA2030512032', 17700),
+('MLA2030512034', 23481),
+('MLA2030512036', 22634),
+('MLA2030512038', 19291),
+('MLA2030512040', 23835),
+('MLA2030512042', 22644),
+('MLA2030512044', 24082),
+('MLA2030512046', 24759),
+('MLA2030512050', 24859),
+('MLA2030512054', 23464),
+('MLA2030512056', 14464),
+('MLA2030512058', 16385),
+('MLA2030512060', 16390),
+('MLA2030512062', 9808),
+('MLA2030512064', 14547),
+('MLA2030512068', 22629),
+('MLA2030524830', 16375),
+('MLA2030524832', 14463),
+('MLA2030524834', 19248),
+('MLA2030524836', 23452),
+('MLA2030524838', 18390),
+('MLA2030524840', 19963),
+('MLA2030524842', 23489),
+('MLA2030524844', 24338),
+('MLA2030524846', 15930),
+('MLA2030524848', 11002),
+('MLA2030524850', 12247),
+('MLA2030524852', 19292),
+('MLA2030524854', 22285),
+('MLA2030524856', 25431),
+('MLA2030524860', 15423),
+('MLA2030524862', 22596),
+('MLA2030524864', 23277),
+('MLA2030524866', 22657),
+('MLA2030524868', 18829),
+('MLA2030524870', 22771),
+('MLA2030524872', 19754),
+('MLA2030524874', 25519),
+('MLA2030524876', 19492),
+('MLA2030524878', 25705),
+('MLA2030524880', 23367),
+('MLA2030524882', 23480),
+('MLA2030524884', 20383),
+('MLA2030524886', 20898),
+('MLA2030524888', 24081),
+('MLA2030524890', 23824),
+('MLA2030524892', 9810),
+('MLA2030524894', 16384),
+('MLA2030524896', 22911),
+('MLA2030524898', 25708),
+('MLA2030524902', 17227),
+('MLA2030524904', 20377),
+('MLA2030524906', 22885),
+('MLA2030524908', 13214),
+('MLA2030524912', 24858),
+('MLA2030524914', 24754),
+('MLA2030538170', 24080),
+('MLA2030538172', 25720),
+('MLA2030538174', 23811),
+('MLA2030538176', 16373),
+('MLA2030538178', 23529),
+('MLA2030538180', 22879),
+('MLA2030538186', 20684),
+('MLA2030538188', 15176),
+('MLA2030538190', 25586),
+('MLA2030538192', 23507),
+('MLA2030538194', 16377),
+('MLA2030538196', 22772),
+('MLA2030538198', 25463),
+('MLA2030538200', 19445),
+('MLA2030538202', 19440),
+('MLA2030538204', 23498),
+('MLA2030538206', 19441),
+('MLA2030538208', 16396),
+('MLA2030538210', 22616),
+('MLA2030538212', 25064),
+('MLA2030538214', 18394),
+('MLA2030538216', 20395),
+('MLA2030538218', 16393),
+('MLA2030538222', 15530),
+('MLA2030538224', 25529),
+('MLA2030538228', 15533),
+('MLA2030551130', 19005),
+('MLA2030551132', 24331),
+('MLA2030551134', 20311),
+('MLA2030551136', 11559),
+('MLA2030551138', 22656),
+('MLA2030551140', 19075),
+('MLA2030551142', 22977),
+('MLA2030551144', 24079),
+('MLA2030551146', 23062),
+('MLA2030551148', 20389),
+('MLA2030551150', 22874),
+('MLA2030551152', 20385),
+('MLA2030551154', 19077),
+('MLA2030551158', 16634),
+('MLA2030551160', 19794),
+('MLA2030551162', 22651),
+('MLA2030551164', 17231),
+('MLA2030551166', 22920),
+('MLA2030551168', 21249),
+('MLA2030551170', 22628),
+('MLA2030551172', 20683),
+('MLA2030551174', 19086),
+('MLA2030551178', 25515),
+('MLA2030551180', 22909),
+('MLA2030551182', 16541),
+('MLA2030551186', 20398),
+('MLA2030551188', 18389),
+('MLA2030551190', 21713),
+('MLA2030551192', 20885),
+('MLA2030551194', 22910),
+('MLA2030551196', 18653),
+('MLA2030551198', 16540),
+('MLA2030551200', 16386),
+('MLA2030551202', 19965),
+('MLA2030551204', 18633),
+('MLA2030551210', 12248),
+('MLA2030551212', 23484),
+('MLA2030551214', 21332),
+('MLA2030551216', 25693),
+('MLA2030551218', 23063),
+('MLA2030551220', 18233),
+('MLA2030563918', 16380),
+('MLA2030563922', 25435),
+('MLA2030563924', 22380),
+('MLA2030563926', 16366),
+('MLA2030563928', 26022),
+('MLA2030563930', 16368),
+('MLA2030563932', 24349),
+('MLA2030563934', 22655),
+('MLA2030563936', 19250),
+('MLA2030563938', 22653),
+('MLA2030563942', 23473),
+('MLA2030563944', 25904),
+('MLA2030563946', 24769),
+('MLA2030563948', 25827),
+('MLA2030563950', 18840),
+('MLA2030563952', 24785),
+('MLA2030563954', 14307),
+('MLA2030563956', 22640),
+('MLA2030563958', 25727),
+('MLA2030563960', 19439),
+('MLA2030563962', 19805),
+('MLA2030563964', 23482),
+('MLA2030563966', 25429),
+('MLA2030563968', 25446),
+('MLA2030563970', 17228),
+('MLA2030563972', 22290),
+('MLA2030563974', 19293),
+('MLA2030563976', 25853),
+('MLA2030563978', 25442),
+('MLA2030563980', 25520),
+('MLA2030563982', 19757),
+('MLA2030563984', 22626),
+('MLA2030563986', 22824),
+('MLA2030576886', 20288),
+('MLA2030576892', 16388),
+('MLA2030576894', 19270),
+('MLA2030576896', 22267),
+('MLA2030576898', 21250),
+('MLA2030576900', 15424),
+('MLA2030576902', 17318),
+('MLA2030576904', 21717),
+('MLA2030576908', 16372),
+('MLA2030576910', 22411),
+('MLA2030576912', 23023),
+('MLA2030576916', 18828),
+('MLA2030576918', 25913),
+('MLA2030576920', 25439),
+('MLA2030576922', 22339),
+('MLA2030576924', 19811),
+('MLA2030576926', 18236),
+('MLA2030576928', 18382),
+('MLA2030576930', 22759),
+('MLA2030576932', 23483),
+('MLA2030576936', 9942),
+('MLA2030576938', 16395),
+('MLA2030576940', 16394),
+('MLA2030576942', 22470),
+('MLA2030576944', 23828),
+('MLA2030576946', 22599),
+('MLA2030576948', 14798),
+('MLA2030576950', 18940),
+('MLA2030590056', 17634),
+('MLA2030590060', 25695),
+('MLA2030590062', 20881),
+('MLA2030590066', 19804),
+('MLA2030590068', 25691),
+('MLA2030590070', 22695),
+('MLA2030590072', 22604),
+('MLA2030590074', 22646),
+('MLA2030590078', 14461),
+('MLA2030590080', 20802),
+('MLA2030590082', 22973),
+('MLA2030590084', 25469),
+('MLA2030590086', 24344),
+('MLA2030590088', 25437),
+('MLA2030590090', 25524),
+('MLA2030590092', 14309),
+('MLA2030590094', 14465),
+('MLA2030590096', 15929),
+('MLA2030590100', 23210),
+('MLA2030590102', 14467),
+('MLA2030590104', 20896),
+('MLA2030590106', 22410),
+('MLA2030590108', 23278),
+('MLA2030590110', 15114),
+('MLA2030590112', 20212),
+('MLA2030590116', 20682),
+('MLA2030590118', 25466),
+('MLA2030590124', 18660),
+('MLA2030590126', 21716),
+('MLA2030590128', 16542),
+('MLA2030590132', 20878),
+('MLA2030590134', 18381),
+('MLA2030590136', 17132),
+('MLA2030590138', 22913),
+('MLA2030590140', 18937),
+('MLA2030590142', 18995),
+('MLA2030590144', 23246),
+('MLA2030590146', 22767),
+('MLA2030602842', 14470),
+('MLA2030602844', 22878),
+('MLA2030602848', 18850),
+('MLA2030602850', 17704),
+('MLA2030602854', 22760),
+('MLA2030602856', 20378),
+('MLA2030602858', 25427),
+('MLA2030602862', 24376),
+('MLA2030602864', 21089),
+('MLA2030602866', 13775),
+('MLA2030602870', 19442),
+('MLA2030602872', 16370),
+('MLA2030602874', 21341),
+('MLA2030602876', 24348),
+('MLA2030602878', 25858),
+('MLA2030602880', 25556),
+('MLA2030602882', 25692),
+('MLA2030602884', 18827),
+('MLA2030602886', 12147),
+('MLA2030602888', 15112),
+('MLA2030602892', 22609),
+('MLA2030602894', 19573),
+('MLA2030602896', 25713),
+('MLA2030602898', 21083),
+('MLA2030602902', 19766),
+('MLA2030602904', 15418),
+('MLA2030602906', 19268),
+('MLA2030602910', 12144),
+('MLA2030602912', 18639),
+('MLA2030602914', 22904),
+('MLA2030602916', 23477),
+('MLA2030602920', 22768),
+('MLA2030616032', 12571),
+('MLA2030616034', 9937),
+('MLA2030616036', 22836),
+('MLA2030616038', 20399),
+('MLA2030616040', 19001),
+('MLA2030616044', 25432),
+('MLA2030616046', 16376),
+('MLA2030616052', 22468),
+('MLA2030616056', 23364),
+('MLA2030616058', 24343),
+('MLA2030616060', 25704),
+('MLA2030616062', 19574),
+('MLA2030616064', 22291),
+('MLA2030616066', 16544),
+('MLA2030616068', 23495),
+('MLA2030616070', 22295),
+('MLA2030616072', 20387),
+('MLA2030616074', 22880),
+('MLA2030616076', 24346),
+('MLA2030616080', 15001),
+('MLA2030616082', 17317),
+('MLA2030616084', 19765),
+('MLA2030616086', 23506),
+('MLA2030616088', 24767),
+('MLA2030616090', 25697),
+('MLA2030616092', 18112),
+('MLA2030616094', 22907),
+('MLA2030616096', 22401),
+('MLA2030616098', 23368),
+('MLA2030616100', 22875),
+('MLA2030616102', 19281),
+('MLA2030616104', 22919),
+('MLA2030616106', 18941),
+('MLA2030616108', 19775),
+('MLA2030616110', 24883),
+('MLA2030616112', 19774),
+('MLA2030628802', 20384),
+('MLA2030628806', 14459),
+('MLA2030628810', 23057),
+('MLA2030628812', 17232),
+('MLA2030628814', 18387),
+('MLA2030628818', 25730),
+('MLA2030628820', 25718),
+('MLA2030628822', 24758),
+('MLA2030628824', 9934),
+('MLA2030628826', 24768),
+('MLA2030628828', 22658),
+('MLA2030628830', 25701),
+('MLA2030628832', 22927),
+('MLA2030628834', 24407),
+('MLA2030628836', 25558),
+('MLA2030628838', 22903),
+('MLA2030628840', 15417),
+('MLA2030628842', 11003),
+('MLA2030628844', 22834),
+('MLA2030628846', 21715),
+('MLA2030628848', 24787),
+('MLA2030628850', 20901),
+('MLA2030628852', 23504),
+('MLA2030628854', 24763),
+('MLA2030628856', 22631),
+('MLA2030628860', 19088),
+('MLA2030628862', 22908),
+('MLA2030628866', 25733),
+('MLA2030628868', 15936),
+('MLA2030628870', 25921),
+('MLA2030628876', 22611),
+('MLA2030628878', 20386),
+('MLA2030642150', 17316),
+('MLA2030642152', 16638),
+('MLA2030642154', 23534),
+('MLA2030642156', 25919),
+('MLA2030642158', 25440),
+('MLA2030642160', 9943),
+('MLA2030642162', 22421),
+('MLA2030642164', 22762),
+('MLA2030642166', 25444),
+('MLA2030642168', 15180),
+('MLA2030642170', 22337),
+('MLA2030642174', 20928),
+('MLA2030642176', 18638),
+('MLA2030642178', 22823),
+('MLA2030642180', 25854),
+('MLA2030642184', 22923),
+('MLA2030642186', 18234),
+('MLA2030642188', 22926),
+('MLA2030642190', 25852),
+('MLA2030642192', 24771),
+('MLA2030642194', 17697),
+('MLA2030642196', 24860),
+('MLA2030642198', 19789),
+('MLA2030642200', 22649),
+('MLA2030642202', 13215),
+('MLA2030642204', 19776),
+('MLA2030642208', 22633),
+('MLA2030642210', 15174),
+('MLA2030642214', 22627),
+('MLA2030642216', 24345),
+('MLA2030642218', 18386),
+('MLA2030654858', 18687),
+('MLA2030654860', 19577),
+('MLA2030654866', 16365),
+('MLA2030654868', 22595),
+('MLA2030654870', 25696),
+('MLA2030654872', 19249),
+('MLA2030654874', 20392),
+('MLA2030654876', 15422),
+('MLA2030654878', 14469),
+('MLA2030654880', 20290),
+('MLA2030654884', 25449),
+('MLA2030654886', 25424),
+('MLA2030654888', 22770),
+('MLA2030654890', 23490),
+('MLA2030654892', 25095),
+('MLA2030654894', 19261),
+('MLA2030654896', 24783),
+('MLA2030654898', 16640),
+('MLA2030654900', 25526),
+('MLA2030654904', 23487),
+('MLA2030654906', 23461),
+('MLA2030654908', 19798),
+('MLA2030654910', 21684),
+('MLA2030654912', 19490),
+('MLA2030654914', 24087),
+('MLA2030654916', 20882),
+('MLA2030654920', 25719),
+('MLA2030654922', 20931),
+('MLA2030654928', 23469),
+('MLA2030667824', 9940),
+('MLA2030667826', 18636),
+('MLA2030667828', 16389),
+('MLA2030667830', 16639),
+('MLA2030667832', 21712),
+('MLA2030667834', 25063),
+('MLA2030667836', 19964),
+('MLA2030667840', 22600),
+('MLA2030667842', 11562),
+('MLA2030667844', 22602),
+('MLA2030667846', 15181),
+('MLA2030667848', 19749),
+('MLA2030667850', 23061),
+('MLA2030667852', 18826),
+('MLA2030667854', 19283),
+('MLA2030667856', 19068),
+('MLA2030667858', 19206),
+('MLA2030667860', 22648),
+('MLA2030667862', 22610),
+('MLA2030667866', 23486),
+('MLA2030667868', 23510),
+('MLA2030667870', 20394),
+('MLA2030667872', 22822),
+('MLA2030667876', 22976),
+('MLA2030667878', 14313),
+('MLA2030667880', 23453),
+('MLA2030667882', 20380),
+('MLA2030667884', 22835),
+('MLA2030667886', 20879),
+('MLA2030667888', 19443),
+('MLA2030667890', 25465),
+('MLA2030667892', 25096),
+('MLA2030681050', 19087),
+('MLA2030681052', 25917),
+('MLA2030681054', 19781),
+('MLA2030681056', 25824),
+('MLA2030681058', 22400),
+('MLA2030681060', 20294),
+('MLA2030681062', 19447),
+('MLA2030681064', 19085),
+('MLA2030681066', 16379),
+('MLA2030681068', 22757),
+('MLA2030681070', 22901),
+('MLA2030681072', 23476),
+('MLA2030681074', 19290),
+('MLA2030681078', 24410),
+('MLA2030681080', 15531),
+('MLA2030681082', 25447),
+('MLA2030681084', 25426),
+('MLA2030681086', 18839),
+('MLA2030681088', 22632),
+('MLA2030681090', 20390),
+('MLA2030681092', 24782),
+('MLA2030681094', 19067),
+('MLA2030681096', 24350),
+('MLA2030681098', 18383),
+('MLA2030681100', 25804),
+('MLA2030681102', 19004),
+('MLA2030681104', 22471),
+('MLA2030681106', 23192),
+('MLA2030693832', 17319),
+('MLA2030693834', 20926),
+('MLA2030693838', 19576),
+('MLA2030693840', 23463),
+('MLA2030693842', 18996),
+('MLA2030693844', 14308),
+('MLA2030693846', 16391),
+('MLA2030693848', 23520),
+('MLA2030693850', 15933),
+('MLA2030693852', 18393),
+('MLA2030693854', 22916),
+('MLA2030693856', 18634),
+('MLA2030693858', 25473),
+('MLA2030693860', 14472),
+('MLA2030693862', 21331),
+('MLA2030693864', 25523),
+('MLA2030693866', 22601),
+('MLA2030693870', 23818),
+('MLA2030693874', 25472),
+('MLA2030693876', 18838),
+('MLA2030693878', 19452),
+('MLA2030693882', 14999),
+('MLA2030693884', 23250),
+('MLA2030693886', 25430),
+('MLA2030693888', 22915),
+('MLA2030693890', 17314),
+('MLA2030693892', 18849),
+('MLA2030693894', 25521),
+('MLA2030693896', 25707),
+('MLA2030693898', 22398),
+('MLA2030693900', 22924),
+('MLA2030693902', 11006),
+('MLA2030693904', 9944),
+('MLA2030693910', 14310),
+('MLA2030693912', 22284),
+('MLA2030693916', 19771),
+('MLA2030693918', 20883),
+('MLA2030693920', 22917),
+('MLA2030693922', 22774),
+('MLA2030693924', 25796),
+('MLA2030706854', 24786),
+('MLA2030706856', 19003),
+('MLA2030706858', 24325),
+('MLA2030706860', 22833),
+('MLA2030706862', 16367),
+('MLA2030706864', 20880),
+('MLA2030706866', 24078),
+('MLA2030706868', 22402),
+('MLA2030706872', 24085),
+('MLA2030706874', 23365),
+('MLA2030706876', 15413),
+('MLA2030706878', 25826),
+('MLA2030706880', 15168),
+('MLA2030706882', 22635),
+('MLA2030706884', 19809),
+('MLA2030706886', 22921),
+('MLA2030706888', 24409),
+('MLA2030706890', 24097),
+('MLA2030706892', 25614),
+('MLA2030706896', 25694),
+('MLA2030706898', 19772),
+('MLA2030706900', 22775),
+('MLA2030706904', 25470),
+('MLA2030706908', 18631),
+('MLA2030706910', 19076),
+('MLA2030706912', 17242),
+('MLA2030706920', 18635),
+('MLA2030706922', 19451),
+('MLA2030706924', 22606),
+('MLA2030706928', 12570),
+('MLA2030706930', 22758),
+('MLA2030706932', 13776),
+('MLA2030706934', 15419),
+('MLA2030706936', 22338),
+('MLA2030706938', 20899),
+('MLA2030706940', 24254),
+('MLA2030706942', 25879),
+('MLA2030706944', 20397),
+('MLA2030706946', 20382),
+('MLA2030719668', 23195),
+('MLA2030719670', 23208),
+('MLA2030719672', 21340),
+('MLA2030719674', 16643),
+('MLA2030719676', 22914),
+('MLA2030719678', 17633),
+('MLA2030719680', 18939),
+('MLA2030719682', 23826),
+('MLA2030719684', 19446),
+('MLA2030719686', 23518),
+('MLA2030719688', 20379),
+('MLA2030719690', 20930),
+('MLA2030719692', 9939),
+('MLA2030719694', 20210),
+('MLA2030719696', 24784),
+('MLA2030719700', 21779),
+('MLA2030719702', 25699),
+('MLA2030719704', 25436),
+('MLA2030719706', 22603),
+('MLA2030719708', 23247),
+('MLA2030719710', 18842),
+('MLA2030719712', 20681),
+('MLA2030719714', 20929),
+('MLA2030719716', 23466),
+('MLA2030719718', 15002),
+('MLA2030719720', 23472),
+('MLA2030719722', 25690),
+('MLA2030719724', 14474),
+('MLA2030719726', 14544),
+('MLA2030719728', 20391),
+('MLA2030719730', 25901),
+('MLA2030719732', 25445),
+('MLA2030719734', 19279),
+('MLA2030719736', 23485),
+('MLA2030719738', 23499),
+('MLA2131974702', 10735),
+('MLA2131974704', 15368),
+('MLA2131974706', 15504),
+('MLA2131974708', 18588),
+('MLA2131974710', 20705),
+('MLA2131974712', 24115),
+('MLA2131974716', 26372),
+('MLA2131974718', 23091),
+('MLA2131974720', 15505),
+('MLA2131974722', 23070),
+('MLA2131974724', 10531),
+('MLA2131974726', 19079),
+('MLA2131974728', 11704),
+('MLA2131974730', 19648),
+('MLA2131974732', 25185),
+('MLA2131974734', 13844),
+('MLA2131974736', 15392),
+('MLA2131974738', 20412),
+('MLA2131974740', 24088),
+('MLA2131974742', 24909),
+('MLA2131974744', 10460),
+('MLA2131974746', 12301),
+('MLA2131974748', 15547),
+('MLA2131974750', 25650),
+('MLA2131974752', 19539),
+('MLA2131974754', 11448),
+('MLA2131974756', 10761),
+('MLA2131974758', 19629),
+('MLA2131974760', 17915),
+('MLA2131974762', 15031),
+('MLA2131974764', 10650),
+('MLA2131974766', 10663),
+('MLA2131974768', 19112),
+('MLA2131974770', 17348),
+('MLA2131974772', 25659),
+('MLA2131974774', 10829),
+('MLA2131974776', 24779),
+('MLA2131974778', 20222),
+('MLA2131974780', 10412),
+('MLA2131974782', 21649),
+('MLA2131974790', 18813),
+('MLA2131974792', 24915),
+('MLA2131974794', 25651),
+('MLA2131974796', 17479),
+('MLA2131974798', 22943),
+('MLA2131974800', 10570),
+('MLA2131974802', 19237),
+('MLA2131974804', 15301),
+('MLA2131974806', 24923),
+('MLA2131974808', 16424),
+('MLA2131974810', 25655),
+('MLA2131974812', 19642),
+('MLA2131974814', 10542),
+('MLA2131974816', 23440),
+('MLA2131974820', 21640),
+('MLA2131974822', 10670),
+('MLA2131974824', 10431),
+('MLA2131974826', 24427),
+('MLA2131974828', 17392),
+('MLA2131974830', 15369),
+('MLA2131974832', 16108),
+('MLA2131974834', 19199),
+('MLA2131974836', 19016),
+('MLA2131974838', 25828),
+('MLA2131974840', 10478),
+('MLA2131974842', 26340),
+('MLA2131974844', 23373),
+('MLA2131974846', 24394),
+('MLA2131974848', 21702),
+('MLA2131974850', 20264),
+('MLA2131974852', 25654),
+('MLA2131974854', 10421),
+('MLA2131974856', 20647),
+('MLA2131974858', 25282),
+('MLA2131974860', 20475),
+('MLA2131974862', 20887),
+('MLA2131974864', 18240),
+('MLA2131974866', 25792),
+('MLA2131974868', 17391),
+('MLA2131974870', 26345),
+('MLA2131974872', 17440),
+('MLA2131974874', 18932),
+('MLA2131974876', 10671),
+('MLA2131974878', 24242),
+('MLA2131974880', 24160),
+('MLA2131974882', 19541),
+('MLA2131974884', 22951),
+('MLA2131974886', 21888),
+('MLA2131974888', 21943),
+('MLA2131974890', 22935),
+('MLA2131974892', 17481),
+('MLA2131974894', 10577),
+('MLA2131974896', 17304),
+('MLA2131974898', 19571),
+('MLA2131974900', 16145),
+('MLA2131974902', 26339),
+('MLA2131974904', 21252),
+('MLA2131974906', 21890),
+('MLA2131974908', 10660),
+('MLA2131974910', 10425),
+('MLA2131974912', 10632),
+('MLA2131974914', 19171),
+('MLA2131974916', 20258),
+('MLA2131974918', 21887),
+('MLA2131974920', 18880),
+('MLA2131974922', 17270),
+('MLA2131974924', 15387),
+('MLA2131974926', 19084),
+('MLA2131974928', 19910),
+('MLA2131974930', 26441),
+('MLA2131974932', 23446),
+('MLA2131974934', 18928),
+('MLA2131974936', 15034),
+('MLA2131974938', 23757),
+('MLA2131974940', 23331),
+('MLA2131974942', 15036),
+('MLA2131974944', 23151),
+('MLA2131974946', 15512),
+('MLA2131974948', 10486),
+('MLA2131974950', 24383),
+('MLA2131974952', 10617),
+('MLA2131974954', 24910),
+('MLA2131974956', 21489),
+('MLA2131974958', 10474),
+('MLA2131974960', 20351),
+('MLA2131974962', 10434),
+('MLA2131974964', 19663),
+('MLA2132139550', 10831),
+('MLA2132139552', 25563),
+('MLA2132139554', 15844),
+('MLA2132139556', 19659),
+('MLA2132139558', 10467),
+('MLA2132139560', 21650),
+('MLA2132139562', 23240),
+('MLA2132139564', 10722),
+('MLA2132139566', 10407),
+('MLA2132139568', 14675),
+('MLA2132139570', 17341),
+('MLA2132139572', 10539),
+('MLA2132139574', 10615),
+('MLA2132139576', 15548),
+('MLA2132139578', 10428),
+('MLA2132139580', 26361),
+('MLA2132139582', 24914),
+('MLA2132139584', 15545),
+('MLA2132139586', 10501),
+('MLA2132139588', 22569),
+('MLA2132139590', 23184),
+('MLA2132139592', 22956),
+('MLA2132139594', 10544),
+('MLA2132139596', 23396),
+('MLA2132139598', 17387),
+('MLA2132139600', 18889),
+('MLA2132139602', 24090),
+('MLA2132139604', 23549),
+('MLA2132139606', 10459),
+('MLA2132139608', 25414),
+('MLA2132139610', 16723),
+('MLA2132139612', 26660),
+('MLA2132139614', 23093),
+('MLA2132139616', 19489),
+('MLA2132139618', 14297),
+('MLA2132139620', 18215),
+('MLA2132139622', 26375),
+('MLA2132139624', 18589),
+('MLA2132139626', 15401),
+('MLA2132139628', 22825),
+('MLA2132139630', 19370),
+('MLA2132139632', 15919),
+('MLA2132139634', 10405),
+('MLA2132139636', 14353),
+('MLA2132139638', 23269),
+('MLA2132139642', 26346),
+('MLA2132139644', 10401),
+('MLA2132139646', 16342),
+('MLA2132139648', 25285),
+('MLA2132139650', 20226),
+('MLA2132139652', 23391),
+('MLA2132139654', 19214),
+('MLA2132139656', 20707),
+('MLA2132139658', 19212),
+('MLA2132139660', 10710),
+('MLA2132139662', 17760),
+('MLA2132139664', 23720),
+('MLA2132139666', 10536),
+('MLA2132139668', 26576),
+('MLA2132139670', 16421),
+('MLA2132139672', 20334),
+('MLA2132139674', 10508),
+('MLA2132139676', 25299),
+('MLA2132139678', 23258),
+('MLA2132139680', 12816),
+('MLA2132139682', 22826),
+('MLA2132139684', 24919),
+('MLA2132139686', 18886),
+('MLA2132139688', 17485),
+('MLA2132139690', 23758),
+('MLA2132139692', 10417),
+('MLA2132139694', 25284),
+('MLA2132139696', 10439),
+('MLA2132139698', 11449),
+('MLA2132139700', 21488),
+('MLA2132139702', 15403),
+('MLA2132139704', 10666),
+('MLA2132139706', 20260),
+('MLA2132139708', 19017),
+('MLA2132139710', 10429),
+('MLA2132139712', 10423),
+('MLA2132139714', 19646),
+('MLA2132139716', 24926),
+('MLA2132139718', 17310),
+('MLA2132139720', 16179),
+('MLA2132139722', 10810),
+('MLA2132139724', 12312),
+('MLA2132139726', 25644),
+('MLA2132139728', 16419),
+('MLA2132139730', 26365),
+('MLA2132139732', 19120),
+('MLA2132139734', 15381),
+('MLA2132139736', 23265),
+('MLA2132139738', 23329),
+('MLA2132139740', 22938),
+('MLA2132139742', 26363),
+('MLA2132139744', 21884),
+('MLA2132139746', 18879),
+('MLA2132139748', 10491),
+('MLA2132139750', 25144),
+('MLA2132139752', 20057),
+('MLA2132139754', 23071),
+('MLA2132139756', 23548),
+('MLA2132139758', 17271),
+('MLA2132139760', 23754),
+('MLA2132139762', 10619),
+('MLA2132139764', 23264),
+('MLA2132139766', 10647),
+('MLA2132139768', 17394),
+('MLA2132139770', 23333),
+('MLA2132139772', 16177),
+('MLA2132139774', 16343),
+('MLA2132139776', 23004),
+('MLA2132139778', 23263),
+('MLA2132139780', 19202),
+('MLA2132139782', 10621),
+('MLA2132139784', 21941),
+('MLA2132139786', 21946),
+('MLA2132139788', 13140),
+('MLA2132139790', 25373),
+('MLA2132179918', 10737),
+('MLA2132179924', 22783),
+('MLA2132179930', 15912),
+('MLA2132179932', 11616),
+('MLA2132179934', 23721),
+('MLA2132179936', 16340),
+('MLA2132179938', 19661),
+('MLA2132179940', 21703),
+('MLA2132179942', 17480),
+('MLA2132179944', 19658),
+('MLA2132179946', 20265),
+('MLA2132179948', 16109),
+('MLA2132179950', 20331),
+('MLA2132179952', 23392),
+('MLA2132179954', 19113),
+('MLA2132179958', 19381),
+('MLA2132179960', 16423),
+('MLA2132179962', 23252),
+('MLA2132179964', 21282),
+('MLA2132179966', 17757),
+('MLA2132179968', 17350),
+('MLA2132179970', 20053),
+('MLA2132179974', 10580),
+('MLA2132179976', 20352),
+('MLA2132179978', 20058),
+('MLA2132179980', 25657),
+('MLA2132179982', 16724),
+('MLA2132179984', 10543),
+('MLA2132179986', 10492),
+('MLA2132179988', 10661),
+('MLA2132192936', 12433),
+('MLA2132192938', 23449),
+('MLA2132192940', 10667),
+('MLA2132192944', 10742),
+('MLA2132192946', 26342),
+('MLA2132192948', 24243),
+('MLA2132192950', 18888),
+('MLA2132192956', 22936),
+('MLA2132192958', 10668),
+('MLA2132192960', 17441),
+('MLA2132192962', 16425),
+('MLA2132192964', 19198),
+('MLA2132192968', 16149),
+('MLA2132192970', 21944),
+('MLA2132192972', 23186),
+('MLA2132192974', 10441),
+('MLA2132192976', 24399),
+('MLA2132192980', 18819),
+('MLA2132192982', 23755),
+('MLA2132192984', 15032),
+('MLA2132192986', 10465),
+('MLA2132192988', 24113),
+('MLA2132192990', 17307),
+('MLA2132192992', 20888),
+('MLA2132192994', 19538),
+('MLA2132192996', 24390),
+('MLA2132192998', 21284),
+('MLA2132193000', 10554),
+('MLA2132193002', 21637),
+('MLA2132193004', 17761),
+('MLA2132193006', 17400),
+('MLA2132193008', 19643),
+('MLA2132193010', 10438),
+('MLA2132205750', 22942),
+('MLA2132205752', 10427),
+('MLA2132205754', 16148),
+('MLA2132205756', 19236),
+('MLA2132205760', 17272),
+('MLA2132205762', 10418),
+('MLA2132205766', 17916),
+('MLA2132205768', 18816),
+('MLA2132205770', 25418),
+('MLA2132205772', 22954),
+('MLA2132205776', 18585),
+('MLA2132205778', 20411),
+('MLA2132205780', 10559),
+('MLA2132205782', 10446),
+('MLA2132205784', 24388),
+('MLA2132205790', 10440),
+('MLA2132205792', 24907),
+('MLA2132205794', 20584),
+('MLA2132205798', 20796),
+('MLA2132205800', 19536),
+('MLA2132205802', 12817),
+('MLA2132205804', 23089),
+('MLA2132205806', 10402),
+('MLA2132205808', 10651),
+('MLA2132205810', 23541),
+('MLA2132205812', 17759),
+('MLA2132205814', 18238),
+('MLA2132205816', 17403),
+('MLA2132205820', 26371),
+('MLA2132205822', 23403),
+('MLA2132205824', 12245),
+('MLA2132205826', 24317),
+('MLA2132205828', 26069),
+('MLA2132205830', 10497),
+('MLA2132205832', 26379),
+('MLA2132205834', 18815),
+('MLA2132205836', 15374),
+('MLA2132205840', 15371),
+('MLA2132205842', 10550),
+('MLA2132218614', 13843),
+('MLA2132218616', 10724),
+('MLA2132218618', 18824),
+('MLA2132218620', 10475),
+('MLA2132218622', 10654),
+('MLA2132218626', 19657),
+('MLA2132218630', 19015),
+('MLA2132218632', 23148),
+('MLA2132218634', 10506),
+('MLA2132218640', 17389),
+('MLA2132218642', 24912),
+('MLA2132218644', 23395),
+('MLA2132218646', 15514),
+('MLA2132218648', 20700),
+('MLA2132218650', 19201),
+('MLA2132218652', 6926),
+('MLA2132218654', 17476),
+('MLA2132218656', 10416),
+('MLA2132218658', 19203),
+('MLA2132218660', 16552),
+('MLA2132218662', 15917),
+('MLA2132218664', 19110),
+('MLA2132218666', 13845),
+('MLA2132218668', 26343),
+('MLA2132218672', 10709),
+('MLA2132218674', 15375),
+('MLA2132218676', 20056),
+('MLA2132218678', 10669),
+('MLA2132218682', 10765),
+('MLA2132218686', 10641),
+('MLA2132218688', 19216),
+('MLA2132218690', 25805),
+('MLA2132218692', 10464),
+('MLA2132218694', 23260),
+('MLA2132218696', 23239),
+('MLA2132218700', 23092),
+('MLA2132218702', 13239),
+('MLA2132218704', 19535),
+('MLA2132218706', 10646),
+('MLA2132218708', 15383),
+('MLA2132218710', 14295),
+('MLA2132218712', 19557),
+('MLA2132218714', 21700),
+('MLA2132218718', 19556),
+('MLA2132231610', 10725),
+('MLA2132231612', 24922),
+('MLA2132231614', 22787),
+('MLA2132231618', 19570),
+('MLA2132231622', 15511),
+('MLA2132231624', 22691),
+('MLA2132231626', 15373),
+('MLA2132231628', 19369),
+('MLA2132231632', 26297),
+('MLA2132231634', 20585),
+('MLA2132231638', 24778),
+('MLA2132231640', 10657),
+('MLA2132231644', 23326),
+('MLA2132231648', 23546),
+('MLA2132231652', 10625),
+('MLA2132231654', 17344),
+('MLA2132231656', 19121),
+('MLA2132231658', 24395),
+('MLA2132231660', 23734),
+('MLA2132231662', 19371),
+('MLA2132231664', 22570),
+('MLA2132231666', 21254),
+('MLA2132231668', 15406),
+('MLA2132231670', 20332),
+('MLA2132231672', 24775),
+('MLA2132231674', 10448),
+('MLA2132231676', 19173),
+('MLA2132231678', 18237),
+('MLA2132231680', 10558),
+('MLA2132231682', 17308),
+('MLA2132231684', 21278),
+('MLA2132231686', 15388),
+('MLA2132231688', 18814),
+('MLA2132231690', 20349),
+('MLA2132231694', 13387),
+('MLA2132231698', 10546),
+('MLA2132231702', 17442),
+('MLA2132231704', 13388),
+('MLA2132231706', 17342),
+('MLA2132231708', 15507),
+('MLA2132244604', 23002),
+('MLA2132244606', 15035),
+('MLA2132244608', 10482),
+('MLA2132244610', 22688),
+('MLA2132244612', 19021),
+('MLA2132244614', 24428),
+('MLA2132244616', 10403),
+('MLA2132244620', 10665),
+('MLA2132244622', 19013),
+('MLA2132244626', 15407),
+('MLA2132244628', 25179),
+('MLA2132244630', 10538),
+('MLA2132244632', 17311),
+('MLA2132244634', 10655),
+('MLA2132244636', 10637),
+('MLA2132244638', 10631),
+('MLA2132244640', 10652),
+('MLA2132244642', 19569),
+('MLA2132244644', 20048),
+('MLA2132244648', 25867),
+('MLA2132244652', 23146),
+('MLA2132244656', 24400),
+('MLA2132244660', 23242),
+('MLA2132244662', 22955),
+('MLA2132244664', 10424),
+('MLA2132244666', 22784),
+('MLA2132244668', 15587),
+('MLA2132244672', 17309),
+('MLA2132244674', 11690),
+('MLA2132244676', 23332),
+('MLA2132244678', 23150),
+('MLA2132244680', 24885),
+('MLA2132244682', 22937),
+('MLA2132244684', 23152),
+('MLA2132244686', 23268),
+('MLA2132244688', 16178),
+('MLA2132244690', 23772),
+('MLA2132244692', 26368),
+('MLA2132244696', 19234),
+('MLA2132244698', 21942),
+('MLA2132244700', 24095),
+('MLA2132244702', 23543),
+('MLA2132244704', 10450),
+('MLA2132257496', 10662),
+('MLA2132257498', 22786),
+('MLA2132257500', 17402),
+('MLA2132257502', 19649),
+('MLA2132257504', 20353),
+('MLA2132257506', 24927),
+('MLA2132257510', 15391),
+('MLA2132257512', 23379),
+('MLA2132257514', 23441),
+('MLA2132257516', 10477),
+('MLA2132257522', 24921),
+('MLA2132257524', 14673),
+('MLA2132257526', 23270),
+('MLA2132257528', 15384),
+('MLA2132257530', 10481),
+('MLA2132257532', 10830),
+('MLA2132257534', 21281),
+('MLA2132257536', 24398),
+('MLA2132257538', 10741),
+('MLA2132257540', 24911),
+('MLA2132257542', 10633),
+('MLA2132257544', 20701),
+('MLA2132257546', 17273),
+('MLA2132257548', 10648),
+('MLA2132257550', 16422),
+('MLA2132257552', 10825),
+('MLA2132257554', 22950),
+('MLA2132257556', 22781),
+('MLA2132257558', 17417),
+('MLA2132257562', 14294),
+('MLA2132257564', 25647),
+('MLA2132257566', 26362),
+('MLA2132257568', 10466),
+('MLA2132257570', 17482),
+('MLA2132257574', 10833),
+('MLA2132257576', 19082),
+('MLA2132257578', 10447),
+('MLA2132257580', 24916),
+('MLA2132257582', 25287),
+('MLA2132257584', 10451),
+('MLA2132257586', 10623),
+('MLA2132257588', 10738),
+('MLA2132257590', 24424),
+('MLA2132257592', 25649),
+('MLA2132257594', 10645),
+('MLA2132257596', 10634),
+('MLA2132257598', 10494),
+('MLA2132257600', 23003),
+('MLA2132270554', 17477),
+('MLA2132270556', 24252),
+('MLA2132270558', 19239),
+('MLA2132270560', 26378),
+('MLA2132270562', 10656),
+('MLA2132270564', 10420),
+('MLA2132270566', 21256),
+('MLA2132270568', 21280),
+('MLA2132270572', 10533),
+('MLA2132270574', 17386),
+('MLA2132270576', 19235),
+('MLA2132270578', 20224),
+('MLA2132270580', 23005),
+('MLA2132270582', 23377),
+('MLA2132270584', 15915),
+('MLA2132270586', 11446),
+('MLA2132270590', 19537),
+('MLA2132270592', 24393),
+('MLA2132270594', 10468),
+('MLA2132270596', 10411),
+('MLA2132270598', 19379),
+('MLA2132270600', 12819),
+('MLA2132270602', 10834),
+('MLA2132270604', 26366),
+('MLA2132270606', 10484),
+('MLA2132270608', 20414),
+('MLA2132270610', 25642),
+('MLA2132270612', 10736),
+('MLA2132270614', 23544),
+('MLA2132270616', 26359),
+('MLA2132270618', 25136),
+('MLA2132270620', 15913),
+('MLA2132270622', 24127),
+('MLA2132270624', 26575),
+('MLA2132270626', 18584),
+('MLA2132283422', 22359),
+('MLA2132283424', 18217),
+('MLA2132283426', 11691),
+('MLA2132283428', 19011),
+('MLA2132283430', 11447),
+('MLA2132283432', 21948),
+('MLA2132283438', 10743),
+('MLA2132283440', 17404),
+('MLA2132283442', 10426),
+('MLA2132283444', 18931),
+('MLA2132283448', 18818),
+('MLA2132283450', 23185),
+('MLA2132283452', 10445),
+('MLA2132283454', 18220),
+('MLA2132283456', 12302),
+('MLA2132283460', 10452),
+('MLA2132283462', 13842),
+('MLA2132283464', 17347),
+('MLA2132283466', 16184),
+('MLA2132283470', 10828),
+('MLA2132283472', 10479),
+('MLA2132283474', 25565),
+('MLA2132283476', 10419),
+('MLA2132283478', 10620),
+('MLA2132283480', 10408),
+('MLA2132283482', 21636),
+('MLA2132283484', 24425),
+('MLA2132283486', 10406),
+('MLA2132283488', 19645),
+('MLA2132283490', 21701),
+('MLA2132283492', 23774),
+('MLA2132283494', 10728),
+('MLA2132283496', 24094),
+('MLA2132283498', 11442),
+('MLA2132283500', 17349),
+('MLA2132283502', 13847),
+('MLA2132283504', 20333),
+('MLA2132283506', 10455),
+('MLA2132283508', 19051),
+('MLA2132283510', 20886),
+('MLA2132283512', 10972),
+('MLA2132283514', 19019),
+('MLA2132296474', 15402),
+('MLA2132296476', 10453),
+('MLA2132296480', 10410),
+('MLA2132296484', 23183),
+('MLA2132296486', 10636),
+('MLA2132296488', 23756),
+('MLA2132296490', 19083),
+('MLA2132296492', 10575),
+('MLA2132296494', 10443),
+('MLA2132296496', 19010),
+('MLA2132296498', 23100),
+('MLA2132296500', 19660),
+('MLA2132296502', 10658),
+('MLA2132296504', 19908),
+('MLA2132296506', 21639),
+('MLA2132296508', 18216),
+('MLA2132296510', 10643),
+('MLA2132296512', 22687),
+('MLA2132296514', 16183),
+('MLA2132296516', 22689),
+('MLA2132296518', 17267),
+('MLA2132296520', 10614),
+('MLA2132296522', 23380),
+('MLA2132296526', 22780),
+('MLA2132296528', 19014),
+('MLA2132296530', 19119),
+('MLA2132296532', 24319),
+('MLA2132296534', 19020),
+('MLA2132296540', 19081),
+('MLA2132296542', 10635),
+('MLA2132296544', 17433),
+('MLA2132296546', 17416),
+('MLA2132296548', 26367),
+('MLA2132296550', 10442),
+('MLA2132296552', 17397),
+('MLA2132296556', 18887),
+('MLA2132296558', 26444),
+('MLA2132296560', 26296),
+('MLA2132309338', 23542),
+('MLA2132309340', 23213),
+('MLA2132309342', 10437),
+('MLA2132309346', 14674),
+('MLA2132309348', 10444),
+('MLA2132309350', 23404),
+('MLA2132309352', 25140),
+('MLA2132309358', 19487),
+('MLA2132309362', 19572),
+('MLA2132309368', 10578),
+('MLA2132309370', 15516),
+('MLA2132309372', 22952),
+('MLA2132309374', 17412),
+('MLA2132309376', 10739),
+('MLA2132309380', 14672),
+('MLA2132309382', 25376),
+('MLA2132309384', 19170),
+('MLA2132309386', 15390),
+('MLA2132309388', 24884),
+('MLA2132309390', 10435),
+('MLA2132309394', 24918),
+('MLA2132309396', 18930),
+('MLA2132309398', 24089),
+('MLA2132309400', 23182),
+('MLA2132309402', 26373),
+('MLA2132309404', 25379),
+('MLA2132309406', 10639),
+('MLA2132309408', 23072),
+('MLA2132309410', 21279),
+('MLA2132309414', 19200),
+('MLA2132309416', 21641),
+('MLA2132309418', 17266),
+('MLA2132309420', 10409),
+('MLA2132309422', 24387),
+('MLA2132309424', 10476),
+('MLA2132309426', 15509),
+('MLA2132309428', 13389),
+('MLA2132309430', 26046),
+('MLA2132309432', 12943),
+('MLA2132309434', 15550),
+('MLA2132309436', 10413),
+('MLA2132309438', 13141),
+('MLA2132309440', 20049),
+('MLA2132309444', 12244),
+('MLA2132309446', 10537),
+('MLA2132309448', 16176),
+('MLA2132309450', 16402),
+('MLA2132309452', 10473),
+('MLA2132309454', 15510),
+('MLA2132309456', 10462),
+('MLA2132322442', 19558),
+('MLA2132322444', 10541),
+('MLA2132322450', 20266),
+('MLA2132322452', 23262),
+('MLA2132322454', 25658),
+('MLA2132322456', 25183),
+('MLA2132322460', 15552),
+('MLA2132322462', 10436),
+('MLA2132322466', 25646),
+('MLA2132322468', 26659),
+('MLA2132322470', 19118),
+('MLA2132322472', 10549),
+('MLA2132322474', 19488),
+('MLA2132322478', 26540),
+('MLA2132322480', 19168),
+('MLA2132322482', 10729),
+('MLA2132322488', 19172),
+('MLA2132322490', 17395),
+('MLA2132322492', 10624),
+('MLA2132322494', 12941),
+('MLA2132322498', 26377),
+('MLA2132322500', 25790),
+('MLA2132322502', 10664),
+('MLA2132322504', 17917),
+('MLA2132322506', 21290),
+('MLA2132322508', 23545),
+('MLA2132322510', 23405),
+('MLA2132322512', 19380),
+('MLA2132335470', 10616),
+('MLA2132335472', 15551),
+('MLA2132335474', 20699),
+('MLA2132335476', 21696),
+('MLA2132335478', 25184),
+('MLA2132335480', 16147),
+('MLA2132335482', 24093),
+('MLA2132335484', 10622),
+('MLA2132335486', 23214),
+('MLA2132335488', 20220),
+('MLA2132335490', 23752),
+('MLA2132335494', 16331),
+('MLA2132335498', 21686),
+('MLA2132335500', 10414),
+('MLA2132335504', 10457),
+('MLA2132335506', 10404),
+('MLA2132335508', 23779),
+('MLA2132335510', 17396),
+('MLA2132335512', 20228),
+('MLA2132335514', 18239),
+('MLA2132335516', 15385),
+('MLA2132335518', 10461),
+('MLA2132335524', 12053),
+('MLA2132335526', 10463),
+('MLA2132335528', 11692),
+('MLA2132335530', 15380),
+('MLA2132335532', 19122),
+('MLA2132335534', 21891),
+('MLA2132335536', 15378),
+('MLA2132335538', 23443),
+('MLA2132335540', 10458),
+('MLA2132335542', 17487),
+('MLA2132335544', 10649),
+('MLA2132335546', 20052),
+('MLA2132335550', 23328),
+('MLA2132335552', 10496),
+('MLA2132335556', 17918),
+('MLA2132335560', 15544),
+('MLA2132335562', 24397),
+('MLA1449710967', 25072),
+('MLA1457193851', 19885),
+('MLA1457193853', 21210),
+('MLA1457193855', 21215),
+('MLA1457206855', 20946),
+('MLA1457206857', 20948),
+('MLA1457206859', 21856),
+('MLA1457219655', 21843),
+('MLA1457219657', 21208),
+('MLA1457219659', 21221),
+('MLA1457232757', 21847),
+('MLA1457232759', 21839),
+('MLA1457232761', 20942),
+('MLA1457232763', 21209),
+('MLA1457232765', 21840),
+('MLA1457232767', 20945),
+('MLA1457232769', 21896),
+('MLA1457245415', 21854),
+('MLA1457245417', 21851),
+('MLA1457245419', 21849),
+('MLA1457245421', 20720),
+('MLA1457245423', 20719),
+('MLA1457245425', 24256),
+('MLA1457245427', 20721),
+('MLA1943038922', 15951),
+('MLA1943038924', 22307),
+('MLA1943051552', 25189),
+('MLA1943052118', 17826),
+('MLA1943052120', 15948),
+('MLA1943064996', 25328),
+('MLA1943078358', 25188),
+('MLA1943091032', 21683),
+('MLA1943103830', 22308),
+('MLA1943130014', 14560),
+('MLA1943130016', 25189),
+('MLA1943130018', 14559),
+('MLA1943130020', 17827),
+('MLA1943156128', 25190),
+('MLA1943156130', 15950),
+('MLA1943181640', 20410),
+('MLA1943181642', 17828),
+('MLA1943181644', 17825),
+('MLA1943181646', 22501),
+('MLA1943181648', 15949),
+('MLA1943181650', 22306),
+('MLA2030499076', 20876),
+('MLA2030499078', 18649),
+('MLA2030499080', 22622),
+('MLA2030499082', 14468),
+('MLA2030499086', 24781),
+('MLA2030499088', 25291),
+('MLA2030499090', 14473),
+('MLA2030499094', 22597),
+('MLA2030499098', 16364),
+('MLA2030499100', 22647),
+('MLA2030499102', 24756),
+('MLA2030499112', 22305),
+('MLA2030499142', 25821),
+('MLA2030499144', 23225),
+('MLA2030499146', 16371),
+('MLA2030511996', 21780),
+('MLA2030511998', 23479),
+('MLA2030512000', 12572),
+('MLA2030512002', 22877),
+('MLA2030512004', 15414),
+('MLA2030512066', 22436),
+('MLA2030551184', 17241),
+('MLA2030576888', 18656),
+('MLA2030576906', 18648),
+('MLA2030590076', 22435),
+('MLA2030590114', 22426),
+('MLA2030590130', 9806),
+('MLA2030602900', 17238),
+('MLA2030602908', 11204),
+('MLA2030616054', 22428),
+('MLA2030616078', 18652),
+('MLA2030628804', 17235),
+('MLA2030628808', 22433),
+('MLA2030642182', 18655),
+('MLA2030654902', 11319),
+('MLA2030667874', 22432),
+('MLA2030681076', 22430),
+('MLA2030693906', 17239),
+('MLA2030693914', 22429),
+('MLA2030706918', 17236);
